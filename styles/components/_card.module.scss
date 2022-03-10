@@ -1,0 +1,41 @@
+@import '../global/imports';
+
+.card {
+    $self: &;
+    box-shadow: -9px 14px 17px -1px #ccc;
+    position: relative;
+    z-index: 10;
+
+    &__container {
+    }
+
+    &__header {
+    }
+
+    &__body {
+        min-height: 330px;
+        background-color: #f4ece6;
+        padding: $space-4;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    &__footer {
+        background-color: $white;
+        min-height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &--primary {
+        margin: 0 auto;
+        width: 90%;
+
+        @include media-breakpoint-up(sm) {
+            width: 100%;
+        }
+    }
+}

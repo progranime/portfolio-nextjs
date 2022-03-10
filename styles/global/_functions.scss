@@ -1,0 +1,25 @@
+@function map-deep-get($map, $keys...) {
+    @each $key in $keys {
+        $map: map-get($map, $key);
+    }
+    @return $map;
+}
+
+// Add dash on the value
+@function util-infix($name) {
+    @return if($name == null, '', '-#{$name}');
+}
+
+@function rename-border($position) {
+    $value: '';
+
+    @if ($position == 'left') {
+        $value: 'start';
+    } @else if ($position == 'right') {
+        $value: 'end';
+    } @else {
+        $value: $position;
+    }
+
+    @return $value;
+}

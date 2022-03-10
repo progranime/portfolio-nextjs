@@ -1,0 +1,91 @@
+@import '../global/imports';
+
+$desktopHeight: 32px;
+$desktopHeightMobile: 40px;
+
+.btn {
+    min-height: $desktopHeightMobile;
+    line-height: #{$desktopHeightMobile - 2};
+
+    @include media-breakpoint-up(sm) {
+        min-height: $desktopHeight;
+        line-height: #{$desktopHeight - 2};
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    &-primary,
+    &-success,
+    &-danger,
+    &-info,
+    &-tertiary {
+        color: $white;
+
+        a {
+            color: $white;
+        }
+
+        &:hover {
+            color: $white;
+        }
+    }
+
+    &-primary,
+    &-success,
+    &-danger,
+    &-info {
+        color: $white !important;
+    }
+
+    &-outline-primary,
+    &-outline-dark,
+    &-outline-success,
+    &-outline-danger {
+        a {
+            color: $dark;
+        }
+
+        &:hover {
+            color: $white;
+
+            a {
+                color: $white;
+            }
+        }
+    }
+
+    &--wide {
+        min-width: 132px;
+    }
+
+    &-lg {
+        @include media-breakpoint-up(sm) {
+            // This code is for presentation only, this one needs to be re-evaluate for cross browser.
+            min-height: $desktopHeightMobile;
+            line-height: $desktopHeightMobile;
+            padding-top: 0;
+            padding-bottom: 0;
+            font-size: $body-font-size;
+            border: 0;
+        }
+    }
+
+    &.disabled,
+    &:disabled {
+        background-color: $gray-200;
+        border-color: $gray-200;
+        color: $white;
+        opacity: 1;
+    }
+
+    &[class*=' btn-outline-'] {
+        &.disabled,
+        &:disabled {
+            background-color: #fff;
+            border-color: $gray-200;
+            color: $gray-200;
+        }
+    }
+}

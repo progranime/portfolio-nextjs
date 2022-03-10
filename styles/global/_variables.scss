@@ -1,0 +1,62 @@
+////////////////////////////
+// Config
+////////////////////////////
+$pathImg: '../../public/images';
+$pathImgIcons: '#{$pathImg}/icons';
+$pathImgCommon: '#{$pathImg}/common';
+$pathImgLogos: '#{$pathImg}/logos';
+$fontIcons: '../assets/icons';
+$fontsPath: '../../public';
+
+////////////////////////////
+// General
+////////////////////////////
+
+// =================== Colors ===================
+// Red
+$red-100: #ffe5e5;
+$red-200: #fe001a;
+
+// Blue
+$blue-100: #00aaee;
+$blue-200: #33c5ff;
+$blue-300: #0487bb;
+$blue-400: #2c6fae;
+
+/// Orange
+$orange-100: #faba55;
+$orange-200: #ffad2d;
+$orange-300: #ffad2d;
+$orange-400: #f58220;
+
+/// Green
+$green-100: #04e08e;
+$green-200: #339900;
+$green-300: #009900;
+
+// Body
+$body-bg-color: #f4f7fb;
+$body-color: $dark;
+$body-font-size: 16px;
+$body-font-size--mobile: 16px;
+
+// Border
+$border: 1px solid $border-color;
+$border-dark: 1px solid #999999;
+
+////////////////////////////
+// Components
+////////////////////////////
+
+// =================== To be used once the styleguide is up ===================
+// Custom Spacing
+$space-1: 5px;
+$space-2: 10px;
+$space-3: 15px;
+$space-4: 20px;
+$space-5: 25px;
+$space-6: 30px;
+
+// font sizes
+$font-xs: 12px;
+$font-sm: 14px;

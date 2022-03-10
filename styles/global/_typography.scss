@@ -1,0 +1,12 @@
+body {
+    color: $body-color;
+    @include myriad(500, $body-font-size);
+
+    @include media-breakpoint-up(md) {
+        @include myriad(500, 16px);
+    }
+}
+
+p {
+    font-size: $body-font-size;
+}

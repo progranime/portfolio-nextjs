@@ -1,0 +1,40 @@
+.image {
+    $self: &;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+
+    & > span:first-child {
+        position: unset !important;
+    }
+
+    &:hover {
+        #{$self}__icon {
+            opacity: 1;
+        }
+    }
+
+    &__item {
+        object-fit: contain;
+        width: 100% !important;
+        position: relative !important;
+        height: unset !important;
+        cursor: pointer;
+    }
+
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40px;
+        height: 40px;
+        background: rgba(153, 153, 153, 0.3);
+        border-radius: 100%;
+        cursor: pointer;
+        opacity: 0;
+        transition: 0.3s ease-in-out;
+    }
+}
