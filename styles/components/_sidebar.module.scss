@@ -1,0 +1,75 @@
+@import '../global/imports';
+
+.sidebar {
+    $self: &;
+    border-radius: 15%;
+
+    &__container {
+    }
+
+    &__intro {
+        background-color: $white;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        text-align: center;
+        padding: $space-3 0;
+
+        .dp {
+            position: relative;
+            width: 120px;
+            border-radius: 15%;
+        }
+
+        .title {
+            font-size: 24px;
+            margin: $space-1 0;
+        }
+
+        .badge {
+            margin-bottom: $space-1;
+            font-size: 10px;
+        }
+
+        .connections {
+            a {
+                color: $dark;
+            }
+        }
+    }
+
+    &__details {
+        background-color: #f5f8f9;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: $space-3;
+
+        ul {
+            display: none;
+            margin-bottom: $space-3;
+
+            @include media-breakpoint-up(sm) {
+                display: flex;
+                gap: 15px;
+                justify-content: center;
+            }
+
+            @include media-breakpoint-up(lg) {
+                flex-direction: column;
+            }
+
+            li {
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+
+                span {
+                    margin-left: $space-2;
+                }
+            }
+        }
+
+        button {
+            font-size: 12px;
+        }
+    }
+}

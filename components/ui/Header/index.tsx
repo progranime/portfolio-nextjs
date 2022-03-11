@@ -37,14 +37,6 @@ function Header() {
             })}
         >
             <Container className={styles.header__container}>
-                <div className={styles.header__logo}>
-                    <Link href='/'>
-                        <a>
-                            <span className={styles.title}>Jeremy Espinosa</span>
-                            <span className={styles.subtitle}>React/Next JS Developer</span>
-                        </a>
-                    </Link>
-                </div>
                 <div className={styles['header__links-wrapper']}>
                     <ul className={styles.header__links}>
                         <li

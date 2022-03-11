@@ -2,40 +2,73 @@
 
 .card {
     $self: &;
-    box-shadow: -9px 14px 17px -1px #ccc;
     position: relative;
-    z-index: 10;
+
+    &:after {
+        content: '';
+        width: 30px;
+        height: 100%;
+        background-color: #e5e5e5;
+        position: absolute;
+        right: -10px;
+        top: 0;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        z-index: 0;
+    }
 
     &__container {
+        display: flex;
+        background-color: #efeff6;
+        border-radius: 20px;
+        padding: $space-3 $space-2;
+        position: relative;
+        z-index: 10;
+        flex-direction: column;
+
+        @include media-breakpoint-up(sm) {
+            flex-direction: row;
+            padding: $space-3;
+        }
     }
 
-    &__header {
-    }
+    &__image {
+        margin-bottom: $space-2;
 
-    &__body {
-        min-height: 330px;
-        background-color: #f4ece6;
-        padding: $space-4;
+        @include media-breakpoint-up(sm) {
+            margin-bottom: 0;
+        }
 
-        p {
+        img {
+            border-radius: 10px;
             margin: 0;
         }
     }
 
-    &__footer {
-        background-color: $white;
-        min-height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    &--primary {
-        margin: 0 auto;
-        width: 90%;
-
+    &__details {
         @include media-breakpoint-up(sm) {
-            width: 100%;
+            margin-left: $space-4;
+        }
+
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .subtitle {
+            font-style: italic;
+            font-size: 14px;
+        }
+
+        .description {
+            font-size: 12px;
+        }
+
+        button {
+            a {
+                font-size: 12px;
+            }
         }
     }
 }

@@ -5,32 +5,13 @@
     background-color: $white;
     z-index: 10;
     position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 
     &__container {
-        padding: $space-3;
+        padding: $space-4 $space-3;
         font-size: 12px;
-        display: flex;
-        flex-direction: column;
-
-        @include media-breakpoint-up(sm) {
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        #{$self}__copyright {
-            order: 2;
-
-            @include media-breakpoint-up(sm) {
-                order: 1;
-            }
-        }
-
-        #{$self}__list {
-            @include media-breakpoint-up(sm) {
-                order: 2;
-            }
-        }
+        text-align: center;
     }
 
     &__copyright {
@@ -39,28 +20,6 @@
 
         a {
             color: $black;
-        }
-    }
-
-    &__list {
-        list-style: none;
-        display: flex;
-        padding: 0;
-        margin: 0;
-        flex-direction: column;
-        gap: 0;
-
-        @include media-breakpoint-up(sm) {
-            flex-direction: row;
-            gap: $space-6;
-        }
-
-        li {
-            margin-bottom: $space-2;
-            b {
-                display: block;
-                margin-bottom: $space-1;
-            }
         }
     }
 }

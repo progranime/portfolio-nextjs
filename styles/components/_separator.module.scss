@@ -1,0 +1,32 @@
+@import '../global/imports';
+
+.separator {
+    $self: &;
+
+    * {
+        position: relative;
+        margin-bottom: $space-6;
+
+        &:before,
+        &:after {
+            content: '';
+            height: 5px;
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            border-radius: 100px;
+        }
+
+        &:before {
+            content: '';
+            width: 60px;
+            background-color: $primary;
+        }
+
+        &:after {
+            content: '';
+            width: 20px;
+            background-color: $secondary;
+        }
+    }
+}

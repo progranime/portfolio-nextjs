@@ -1,8 +1,13 @@
-import React from 'react'
-
 export type CardProps = {
-    children: React.ReactNode
-    header?: React.ReactNode
-    footer?: React.ReactNode
+    image?: string
+    title: string
+    subtitle?: string
+    description?: string
     className?: string
+    link?: {
+        href: string
+        title: string
+        target?: string
+    }
+    icon?: any
 }
