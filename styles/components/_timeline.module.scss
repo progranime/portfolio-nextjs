@@ -1,0 +1,48 @@
+@import '../global/imports';
+
+.timeline {
+    $self: &;
+
+    &__container {
+    }
+
+    &__item {
+        padding: 0 0 $space-3 $space-3;
+        border-left: $border;
+        position: relative;
+
+        &:before {
+            content: '';
+            box-shadow: 0 0 0 0.1875rem lighten($primary, 20%);
+            position: absolute;
+            top: 2px;
+            left: -4px;
+            border-radius: 50%;
+            width: 8px;
+            height: 8px;
+            background-color: #46dff0;
+        }
+
+        &:last-child {
+            border-left: none;
+        }
+
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .period {
+            color: $gray-600;
+            font-size: 16px;
+        }
+
+        .description {
+            font-size: 14px;
+        }
+
+        ul {
+            font-size: 12px;
+        }
+    }
+}
