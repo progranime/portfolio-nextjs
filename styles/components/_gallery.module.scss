@@ -1,0 +1,16 @@
+@import '../global/imports';
+
+.gallery {
+    :global .image-gallery-thumbnail {
+        &.active,
+        &:hover {
+            border-color: $primary;
+        }
+    }
+
+    :global .image-gallery-icon {
+        &:hover {
+            color: $primary;
+        }
+    }
+}

@@ -17,94 +17,124 @@ export const projects = [
         technologies: ['HTML/5', 'CSS/3 (LESS/SCSS)', 'Javascript (ES6)', 'JQuery', 'Handlebarjs', 'Gulp', 'ASP.Net', 'NopCommerce', 'MSSQL'],
         galleries: [
             {
-                src: '/images/projects/fmt/1.png'
+                original: '/images/projects/fmt/1.png',
+                thumbnail: '/images/projects/fmt/1.png'
             },
             {
-                src: '/images/projects/fmt/2.png'
+                original: '/images/projects/fmt/2.png',
+                thumbnail: '/images/projects/fmt/2.png'
             },
             {
-                src: '/images/projects/fmt/3.png'
+                original: '/images/projects/fmt/3.png',
+                thumbnail: '/images/projects/fmt/3.png'
             },
             {
-                src: '/images/projects/fmt/4.png'
+                original: '/images/projects/fmt/4.png',
+                thumbnail: '/images/projects/fmt/4.png'
             },
             {
-                src: '/images/projects/fmt/5.png'
+                original: '/images/projects/fmt/5.png',
+                thumbnail: '/images/projects/fmt/5.png'
             },
             {
-                src: '/images/projects/fmt/6.png'
+                original: '/images/projects/fmt/6.png',
+                thumbnail: '/images/projects/fmt/6.png'
             },
             {
-                src: '/images/projects/fmt/7.png'
+                original: '/images/projects/fmt/7.png',
+                thumbnail: '/images/projects/fmt/7.png'
             },
             {
-                src: '/images/projects/fmt/8.png'
+                original: '/images/projects/fmt/8.png',
+                thumbnail: '/images/projects/fmt/8.png'
             },
             {
-                src: '/images/projects/fmt/9.png'
+                original: '/images/projects/fmt/9.png',
+                thumbnail: '/images/projects/fmt/9.png'
             },
             {
-                src: '/images/projects/fmt/10.png'
+                original: '/images/projects/fmt/10.png',
+                thumbnail: '/images/projects/fmt/10.png'
             },
             {
-                src: '/images/projects/fmt/11.png'
+                original: '/images/projects/fmt/11.png',
+                thumbnail: '/images/projects/fmt/11.png'
             },
             {
-                src: '/images/projects/fmt/12.png'
+                original: '/images/projects/fmt/12.png',
+                thumbnail: '/images/projects/fmt/12.png'
             },
             {
-                src: '/images/projects/fmt/13.png'
+                original: '/images/projects/fmt/13.png',
+                thumbnail: '/images/projects/fmt/13.png'
             },
             {
-                src: '/images/projects/fmt/14.png'
+                original: '/images/projects/fmt/14.png',
+                thumbnail: '/images/projects/fmt/14.png'
             },
             {
-                src: '/images/projects/fmt/15.png'
+                original: '/images/projects/fmt/15.png',
+                thumbnail: '/images/projects/fmt/15.png'
             },
             {
-                src: '/images/projects/fmt/16.png'
+                original: '/images/projects/fmt/16.png',
+                thumbnail: '/images/projects/fmt/16.png'
             },
             {
-                src: '/images/projects/fmt/17.png'
+                original: '/images/projects/fmt/17.png',
+                thumbnail: '/images/projects/fmt/17.png'
             },
             {
-                src: '/images/projects/fmt/18.png'
+                original: '/images/projects/fmt/18.png',
+                thumbnail: '/images/projects/fmt/18.png'
             },
             {
-                src: '/images/projects/fmt/19.png'
+                original: '/images/projects/fmt/19.png',
+                thumbnail: '/images/projects/fmt/19.png'
             },
             {
-                src: '/images/projects/fmt/20.png'
+                original: '/images/projects/fmt/20.png',
+                thumbnail: '/images/projects/fmt/20.png'
             },
             {
-                src: '/images/projects/fmt/21.png'
+                original: '/images/projects/fmt/21.png',
+                thumbnail: '/images/projects/fmt/21.png'
             },
             {
-                src: '/images/projects/fmt/22.png'
+                original: '/images/projects/fmt/22.png',
+                thumbnail: '/images/projects/fmt/22.png'
             },
             {
-                src: '/images/projects/fmt/23.png'
+                original: '/images/projects/fmt/23.png',
+                thumbnail: '/images/projects/fmt/23.png'
             },
             {
-                src: '/images/projects/fmt/24.png'
+                original: '/images/projects/fmt/24.png',
+                thumbnail: '/images/projects/fmt/24.png'
             },
             {
-                src: '/images/projects/fmt/25.png'
+                original: '/images/projects/fmt/25.png',
+                thumbnail: '/images/projects/fmt/25.png'
             },
             {
-                src: '/images/projects/fmt/26.png'
+                original: '/images/projects/fmt/26.png',
+                thumbnail: '/images/projects/fmt/26.png'
             },
             {
-                src: '/images/projects/fmt/27.png'
+                original: '/images/projects/fmt/27.png',
+                thumbnail: '/images/projects/fmt/27.png'
             },
             {
-                src: '/images/projects/fmt/28.png'
+                original: '/images/projects/fmt/28.png',
+                thumbnail: '/images/projects/fmt/28.png'
             },
             {
-                src: '/images/projects/fmt/29.png'
+                original: '/images/projects/fmt/29.png',
+                thumbnail: '/images/projects/fmt/29.png'
             },
             {
-                src: '/images/projects/fmt/30.png'
+                original: '/images/projects/fmt/30.png',
+                thumbnail: '/images/projects/fmt/30.png'
             }
         ]
     },
@@ -123,55 +153,72 @@ export const projects = [
         technologies: ['HTML/5', 'CSS/3 (LESS/SCSS)', 'Javascript (ES6)', 'JQuery', 'Handlebarjs', 'Gulp', 'PHP', 'CodeIgniter', 'MYSQL'],
         galleries: [
             {
-                src: '/images/projects/avatarmaker/1.jpg'
+                original: '/images/projects/avatarmaker/1.jpg',
+                thumbnail: '/images/projects/avatarmaker/1.jpg'
             },
             {
-                src: '/images/projects/avatarmaker/2.jpg'
+                original: '/images/projects/avatarmaker/2.jpg',
+                thumbnail: '/images/projects/avatarmaker/2.jpg'
             },
             {
-                src: '/images/projects/avatarmaker/3.jpg'
+                original: '/images/projects/avatarmaker/3.jpg',
+                thumbnail: '/images/projects/avatarmaker/3.jpg'
             },
             {
-                src: '/images/projects/avatarmaker/4.jpg'
+                original: '/images/projects/avatarmaker/4.jpg',
+                thumbnail: '/images/projects/avatarmaker/4.jpg'
             },
             {
-                src: '/images/projects/avatarmaker/5.jpg'
+                original: '/images/projects/avatarmaker/5.jpg',
+                thumbnail: '/images/projects/avatarmaker/5.jpg'
             },
             {
-                src: '/images/projects/avatarmaker/6.jpg'
+                original: '/images/projects/avatarmaker/6.jpg',
+                thumbnail: '/images/projects/avatarmaker/6.jpg'
             },
             {
-                src: '/images/projects/avatarmaker/7.jpg'
+                original: '/images/projects/avatarmaker/7.jpg',
+                thumbnail: '/images/projects/avatarmaker/7.jpg'
             },
             {
-                src: '/images/projects/avatarmaker/8.jpg'
+                original: '/images/projects/avatarmaker/8.jpg',
+                thumbnail: '/images/projects/avatarmaker/8.jpg'
             },
             {
-                src: '/images/projects/avatarmaker/9.jpg'
+                original: '/images/projects/avatarmaker/9.jpg',
+                thumbnail: '/images/projects/avatarmaker/9.jpg'
             },
             {
-                src: '/images/projects/avatarmaker/10.jpg'
+                original: '/images/projects/avatarmaker/10.jpg',
+                thumbnail: '/images/projects/avatarmaker/10.jpg'
             },
             {
-                src: '/images/projects/avatarmaker/11.jpg'
+                original: '/images/projects/avatarmaker/11.jpg',
+                thumbnail: '/images/projects/avatarmaker/11.jpg'
             },
             {
-                src: '/images/projects/avatarmaker/12.jpg'
+                original: '/images/projects/avatarmaker/12.jpg',
+                thumbnail: '/images/projects/avatarmaker/12.jpg'
             },
             {
-                src: '/images/projects/avatarmaker/13.jpg'
+                original: '/images/projects/avatarmaker/13.jpg',
+                thumbnail: '/images/projects/avatarmaker/13.jpg'
             },
             {
-                src: '/images/projects/avatarmaker/14.jpg'
+                original: '/images/projects/avatarmaker/14.jpg',
+                thumbnail: '/images/projects/avatarmaker/14.jpg'
             },
             {
-                src: '/images/projects/avatarmaker/15.jpg'
+                original: '/images/projects/avatarmaker/15.jpg',
+                thumbnail: '/images/projects/avatarmaker/15.jpg'
             },
             {
-                src: '/images/projects/avatarmaker/16.jpg'
+                original: '/images/projects/avatarmaker/16.jpg',
+                thumbnail: '/images/projects/avatarmaker/16.jpg'
             },
             {
-                src: '/images/projects/avatarmaker/17.jpg'
+                original: '/images/projects/avatarmaker/17.jpg',
+                thumbnail: '/images/projects/avatarmaker/17.jpg'
             }
         ]
     },
@@ -191,52 +238,64 @@ export const projects = [
         technologies: ['HTML/5', 'CSS/3 (LESS/SCSS)', 'Javascript (ES6)', 'JQuery', 'PHP', 'CodeIgniter', 'MYSQL'],
         galleries: [
             {
-                src: '/images/projects/saranganiBox/1.png'
+                original: '/images/projects/saranganiBox/1.png',
+                thumbnail: '/images/projects/saranganiBox/1.png'
             },
             {
-                src: '/images/projects/saranganiBox/2.png'
+                original: '/images/projects/saranganiBox/2.png',
+                thumbnail: '/images/projects/saranganiBox/2.png'
             },
             {
-                src: '/images/projects/saranganiBox/3.png'
+                original: '/images/projects/saranganiBox/3.png',
+                thumbnail: '/images/projects/saranganiBox/3.png'
             },
             {
-                src: '/images/projects/saranganiBox/4.png'
+                original: '/images/projects/saranganiBox/4.png',
+                thumbnail: '/images/projects/saranganiBox/4.png'
             },
             {
-                src: '/images/projects/saranganiBox/5.png'
+                original: '/images/projects/saranganiBox/5.png',
+                thumbnail: '/images/projects/saranganiBox/5.png'
             },
             {
-                src: '/images/projects/saranganiBox/6.png'
+                original: '/images/projects/saranganiBox/6.png',
+                thumbnail: '/images/projects/saranganiBox/6.png'
             },
             {
-                src: '/images/projects/saranganiBox/7.png'
+                original: '/images/projects/saranganiBox/7.png',
+                thumbnail: '/images/projects/saranganiBox/7.png'
             },
             {
-                src: '/images/projects/saranganiBox/8.png'
+                original: '/images/projects/saranganiBox/8.png',
+                thumbnail: '/images/projects/saranganiBox/8.png'
             },
             {
-                src: '/images/projects/saranganiBox/9.png'
+                original: '/images/projects/saranganiBox/9.png',
+                thumbnail: '/images/projects/saranganiBox/9.png'
             },
             {
-                src: '/images/projects/saranganiBox/10.png'
+                original: '/images/projects/saranganiBox/10.png',
+                thumbnail: '/images/projects/saranganiBox/10.png'
             },
             {
-                src: '/images/projects/saranganiBox/11.png'
+                original: '/images/projects/saranganiBox/11.png',
+                thumbnail: '/images/projects/saranganiBox/11.png'
             },
             {
-                src: '/images/projects/saranganiBox/12.png'
+                original: '/images/projects/saranganiBox/12.png',
+                thumbnail: '/images/projects/saranganiBox/12.png'
             },
             {
-                src: '/images/projects/saranganiBox/13.png'
+                original: '/images/projects/saranganiBox/13.png',
+                thumbnail: '/images/projects/saranganiBox/13.png'
             },
             {
-                src: '/images/projects/saranganiBox/13.png'
+                original: '/images/projects/saranganiBox/14.png',
+                thumbnail: '/images/projects/saranganiBox/14.png'
             },
             {
-                src: '/images/projects/saranganiBox/14.png'
-            },
-            {
-                src: '/images/projects/saranganiBox/15.png'
+                original: '/images/projects/saranganiBox/15.png',
+                thumbnail: '/images/projects/saranganiBox/15.png'
             }
         ]
     },
@@ -257,22 +316,28 @@ export const projects = [
         technologies: ['HTML/5', 'CSS/3 (LESS/SCSS)', 'React JS', 'PHP', 'CodeIgniter', 'MYSQL'],
         galleries: [
             {
-                src: '/images/projects/sales-forecast/1.jpg'
+                original: '/images/projects/sales-forecast/1.jpg',
+                thumbnail: '/images/projects/sales-forecast/1.jpg'
             },
             {
-                src: '/images/projects/sales-forecast/2.jpg'
+                original: '/images/projects/sales-forecast/2.jpg',
+                thumbnail: '/images/projects/sales-forecast/2.jpg'
             },
             {
-                src: '/images/projects/sales-forecast/3.jpg'
+                original: '/images/projects/sales-forecast/3.jpg',
+                thumbnail: '/images/projects/sales-forecast/3.jpg'
             },
             {
-                src: '/images/projects/sales-forecast/4.jpg'
+                original: '/images/projects/sales-forecast/4.jpg',
+                thumbnail: '/images/projects/sales-forecast/4.jpg'
             },
             {
-                src: '/images/projects/sales-forecast/5.jpg'
+                original: '/images/projects/sales-forecast/5.jpg',
+                thumbnail: '/images/projects/sales-forecast/5.jpg'
             },
             {
-                src: '/images/projects/sales-forecast/6.jpg'
+                original: '/images/projects/sales-forecast/6.jpg',
+                thumbnail: '/images/projects/sales-forecast/6.jpg'
             }
         ]
     },
@@ -292,28 +357,36 @@ export const projects = [
         technologies: ['HTML/5', 'CSS/3 (LESS/SCSS)', 'Javascript (ES6)', 'JQuery', 'Handlebarjs', 'Gulp', 'PHP', 'CodeIgniter', 'MYSQL'],
         galleries: [
             {
-                src: '/images/projects/pledges/1.jpg'
+                original: '/images/projects/pledges/1.jpg',
+                thumbnail: '/images/projects/pledges/1.jpg'
             },
             {
-                src: '/images/projects/pledges/2.jpg'
+                original: '/images/projects/pledges/2.jpg',
+                thumbnail: '/images/projects/pledges/2.jpg'
             },
             {
-                src: '/images/projects/pledges/3.jpg'
+                original: '/images/projects/pledges/3.jpg',
+                thumbnail: '/images/projects/pledges/3.jpg'
             },
             {
-                src: '/images/projects/pledges/4.jpg'
+                original: '/images/projects/pledges/4.jpg',
+                thumbnail: '/images/projects/pledges/4.jpg'
             },
             {
-                src: '/images/projects/pledges/5.jpg'
+                original: '/images/projects/pledges/5.jpg',
+                thumbnail: '/images/projects/pledges/5.jpg'
             },
             {
-                src: '/images/projects/pledges/7.jpg'
+                original: '/images/projects/pledges/6.jpg',
+                thumbnail: '/images/projects/pledges/6.jpg'
             },
             {
-                src: '/images/projects/pledges/8.jpg'
+                original: '/images/projects/pledges/7.jpg',
+                thumbnail: '/images/projects/pledges/7.jpg'
             },
             {
-                src: '/images/projects/pledges/9.jpg'
+                original: '/images/projects/pledges/8.jpg',
+                thumbnail: '/images/projects/pledges/8.jpg'
             }
         ]
     },
@@ -326,16 +399,20 @@ export const projects = [
         technologies: ['HTML/5', 'CSS/3 (LESS/SCSS)', 'Javascript (ES6)', 'JQuery', 'Gulp', 'PHP', 'CodeIgniter', 'MYSQL'],
         galleries: [
             {
-                src: '/images/projects/superants/homepage.jpg'
+                original: '/images/projects/superants/homepage.jpg',
+                thumbnail: '/images/projects/superants/homepage.jpg'
             },
             {
-                src: '/images/projects/superants/about.jpg'
+                original: '/images/projects/superants/about.jpg',
+                thumbnail: '/images/projects/superants/about.jpg'
             },
             {
-                src: '/images/projects/superants/services.jpg'
+                original: '/images/projects/superants/services.jpg',
+                thumbnail: '/images/projects/superants/services.jpg'
             },
             {
-                src: '/images/projects/superants/contact.jpg'
+                original: '/images/projects/superants/contact.jpg',
+                thumbnail: '/images/projects/superants/contact.jpg'
             }
         ]
     },
@@ -355,55 +432,72 @@ export const projects = [
         technologies: ['HTML/5', 'CSS/3 (LESS/SCSS)', 'Javascript (ES6)', 'JQuery', 'Handlebarjs', 'Gulp', 'PHP', 'CodeIgniter', 'MYSQL'],
         galleries: [
             {
-                src: '/images/projects/midGenerator/1.jpg'
+                original: '/images/projects/midGenerator/1.jpg',
+                thumbnail: '/images/projects/midGenerator/1.jpg'
             },
             {
-                src: '/images/projects/midGenerator/2.jpg'
+                original: '/images/projects/midGenerator/2.jpg',
+                thumbnail: '/images/projects/midGenerator/2.jpg'
             },
             {
-                src: '/images/projects/midGenerator/3.jpg'
+                original: '/images/projects/midGenerator/3.jpg',
+                thumbnail: '/images/projects/midGenerator/3.jpg'
             },
             {
-                src: '/images/projects/midGenerator/4.jpg'
+                original: '/images/projects/midGenerator/4.jpg',
+                thumbnail: '/images/projects/midGenerator/4.jpg'
             },
             {
-                src: '/images/projects/midGenerator/5.jpg'
+                original: '/images/projects/midGenerator/5.jpg',
+                thumbnail: '/images/projects/midGenerator/5.jpg'
             },
             {
-                src: '/images/projects/midGenerator/6.jpg'
+                original: '/images/projects/midGenerator/6.jpg',
+                thumbnail: '/images/projects/midGenerator/6.jpg'
             },
             {
-                src: '/images/projects/midGenerator/7.jpg'
+                original: '/images/projects/midGenerator/7.jpg',
+                thumbnail: '/images/projects/midGenerator/7.jpg'
             },
             {
-                src: '/images/projects/midGenerator/8.jpg'
+                original: '/images/projects/midGenerator/8.jpg',
+                thumbnail: '/images/projects/midGenerator/8.jpg'
             },
             {
-                src: '/images/projects/midGenerator/9.jpg'
+                original: '/images/projects/midGenerator/9.jpg',
+                thumbnail: '/images/projects/midGenerator/9.jpg'
             },
             {
-                src: '/images/projects/midGenerator/10.jpg'
+                original: '/images/projects/midGenerator/10.jpg',
+                thumbnail: '/images/projects/midGenerator/10.jpg'
             },
             {
-                src: '/images/projects/midGenerator/11.jpg'
+                original: '/images/projects/midGenerator/11.jpg',
+                thumbnail: '/images/projects/midGenerator/11.jpg'
             },
             {
-                src: '/images/projects/midGenerator/12.jpg'
+                original: '/images/projects/midGenerator/12.jpg',
+                thumbnail: '/images/projects/midGenerator/12.jpg'
             },
             {
-                src: '/images/projects/midGenerator/13.jpg'
+                original: '/images/projects/midGenerator/13.jpg',
+                thumbnail: '/images/projects/midGenerator/13.jpg'
             },
             {
-                src: '/images/projects/midGenerator/14.jpg'
+                original: '/images/projects/midGenerator/14.jpg',
+                thumbnail: '/images/projects/midGenerator/14.jpg'
             },
             {
-                src: '/images/projects/midGenerator/15.jpg'
+                original: '/images/projects/midGenerator/15.jpg',
+                thumbnail: '/images/projects/midGenerator/15.jpg'
             },
             {
-                src: '/images/projects/midGenerator/16.jpg'
+                original: '/images/projects/midGenerator/16.jpg',
+                thumbnail: '/images/projects/midGenerator/16.jpg'
             },
             {
-                src: '/images/projects/midGenerator/17.jpg'
+                original: '/images/projects/midGenerator/17.jpg',
+                thumbnail: '/images/projects/midGenerator/17.jpg'
             }
         ]
     },
@@ -423,19 +517,24 @@ export const projects = [
         technologies: ['HTML/5', 'CSS/3 (LESS/SCSS)', 'Javascript (ES6)', 'ReactJS', 'Redux', 'Expressjs', 'Nodejs', 'MYSQL'],
         galleries: [
             {
-                src: '/images/projects/dam/1.png'
+                original: '/images/projects/dam/1.png',
+                thumbnail: '/images/projects/dam/1.png'
             },
             {
-                src: '/images/projects/dam/2.png'
+                original: '/images/projects/dam/2.png',
+                thumbnail: '/images/projects/dam/2.png'
             },
             {
-                src: '/images/projects/dam/3.png'
+                original: '/images/projects/dam/3.png',
+                thumbnail: '/images/projects/dam/3.png'
             },
             {
-                src: '/images/projects/dam/4.png'
+                original: '/images/projects/dam/4.png',
+                thumbnail: '/images/projects/dam/4.png'
             },
             {
-                src: '/images/projects/dam/5.png'
+                original: '/images/projects/dam/5.png',
+                thumbnail: '/images/projects/dam/5.png'
             }
         ]
     },
@@ -455,55 +554,72 @@ export const projects = [
         technologies: ['HTML/5', 'CSS/3 (LESS/SASS)', 'Javascript (ES6)', 'ReactJS', 'Redux', 'Expressjs', 'Nodejs', 'MYSQL'],
         galleries: [
             {
-                src: `/images/projects/businessCardGenerator/1.png`
+                original: '/images/projects/businessCardGenerator/1.png',
+                thumbnail: '/images/projects/businessCardGenerator/1.png'
             },
             {
-                src: `/images/projects/businessCardGenerator/2.png`
+                original: '/images/projects/businessCardGenerator/2.png',
+                thumbnail: '/images/projects/businessCardGenerator/2.png'
             },
             {
-                src: `/images/projects/businessCardGenerator/3.png`
+                original: '/images/projects/businessCardGenerator/3.png',
+                thumbnail: '/images/projects/businessCardGenerator/3.png'
             },
             {
-                src: `/images/projects/businessCardGenerator/4.png`
+                original: '/images/projects/businessCardGenerator/4.png',
+                thumbnail: '/images/projects/businessCardGenerator/4.png'
             },
             {
-                src: `/images/projects/businessCardGenerator/5.png`
+                original: '/images/projects/businessCardGenerator/5.png',
+                thumbnail: '/images/projects/businessCardGenerator/5.png'
             },
             {
-                src: `/images/projects/businessCardGenerator/6.png`
+                original: '/images/projects/businessCardGenerator/6.png',
+                thumbnail: '/images/projects/businessCardGenerator/6.png'
             },
             {
-                src: `/images/projects/businessCardGenerator/7.png`
+                original: '/images/projects/businessCardGenerator/7.png',
+                thumbnail: '/images/projects/businessCardGenerator/7.png'
             },
             {
-                src: `/images/projects/businessCardGenerator/8.png`
+                original: '/images/projects/businessCardGenerator/8.png',
+                thumbnail: '/images/projects/businessCardGenerator/8.png'
             },
             {
-                src: `/images/projects/businessCardGenerator/9.png`
+                original: '/images/projects/businessCardGenerator/9.png',
+                thumbnail: '/images/projects/businessCardGenerator/9.png'
             },
             {
-                src: `/images/projects/businessCardGenerator/10.png`
+                original: '/images/projects/businessCardGenerator/10.png',
+                thumbnail: '/images/projects/businessCardGenerator/10.png'
             },
             {
-                src: `/images/projects/businessCardGenerator/11.png`
+                original: '/images/projects/businessCardGenerator/11.png',
+                thumbnail: '/images/projects/businessCardGenerator/11.png'
             },
             {
-                src: `/images/projects/businessCardGenerator/12.png`
+                original: '/images/projects/businessCardGenerator/12.png',
+                thumbnail: '/images/projects/businessCardGenerator/12.png'
             },
             {
-                src: `/images/projects/businessCardGenerator/13.png`
+                original: '/images/projects/businessCardGenerator/13.png',
+                thumbnail: '/images/projects/businessCardGenerator/13.png'
             },
             {
-                src: `/images/projects/businessCardGenerator/14.png`
+                original: '/images/projects/businessCardGenerator/14.png',
+                thumbnail: '/images/projects/businessCardGenerator/14.png'
             },
             {
-                src: `/images/projects/businessCardGenerator/15.png`
+                original: '/images/projects/businessCardGenerator/15.png',
+                thumbnail: '/images/projects/businessCardGenerator/15.png'
             },
             {
-                src: `/images/projects/businessCardGenerator/16.png`
+                original: '/images/projects/businessCardGenerator/16.png',
+                thumbnail: '/images/projects/businessCardGenerator/16.png'
             },
             {
-                src: `/images/projects/businessCardGenerator/17.png`
+                original: '/images/projects/businessCardGenerator/17.png',
+                thumbnail: '/images/projects/businessCardGenerator/17.png'
             }
         ]
     },
@@ -520,70 +636,92 @@ export const projects = [
         technologies: ['HTML/5', 'CSS/3 (LESS/SCSS)', 'Java', 'Eclipse'],
         galleries: [
             {
-                src: '/images/projects/geoscan/1.png'
+                original: '/images/projects/geoscan/1.png',
+                thumbnail: '/images/projects/geoscan/1.png'
             },
             {
-                src: '/images/projects/geoscan/2.png'
+                original: '/images/projects/geoscan/2.png',
+                thumbnail: '/images/projects/geoscan/2.png'
             },
             {
-                src: '/images/projects/geoscan/3.png'
+                original: '/images/projects/geoscan/3.png',
+                thumbnail: '/images/projects/geoscan/3.png'
             },
             {
-                src: '/images/projects/geoscan/4.png'
+                original: '/images/projects/geoscan/4.png',
+                thumbnail: '/images/projects/geoscan/4.png'
             },
             {
-                src: '/images/projects/geoscan/5.png'
+                original: '/images/projects/geoscan/5.png',
+                thumbnail: '/images/projects/geoscan/5.png'
             },
             {
-                src: '/images/projects/geoscan/6.png'
+                original: '/images/projects/geoscan/6.png',
+                thumbnail: '/images/projects/geoscan/6.png'
             },
             {
-                src: '/images/projects/geoscan/7.png'
+                original: '/images/projects/geoscan/7.png',
+                thumbnail: '/images/projects/geoscan/7.png'
             },
             {
-                src: '/images/projects/geoscan/8.png'
+                original: '/images/projects/geoscan/8.png',
+                thumbnail: '/images/projects/geoscan/8.png'
             },
             {
-                src: '/images/projects/geoscan/9.png'
+                original: '/images/projects/geoscan/9.png',
+                thumbnail: '/images/projects/geoscan/9.png'
             },
             {
-                src: '/images/projects/geoscan/10.png'
+                original: '/images/projects/geoscan/10.png',
+                thumbnail: '/images/projects/geoscan/10.png'
             },
             {
-                src: '/images/projects/geoscan/11.png'
+                original: '/images/projects/geoscan/11.png',
+                thumbnail: '/images/projects/geoscan/11.png'
             },
             {
-                src: '/images/projects/geoscan/12.png'
+                original: '/images/projects/geoscan/12.png',
+                thumbnail: '/images/projects/geoscan/12.png'
             },
             {
-                src: '/images/projects/geoscan/13.png'
+                original: '/images/projects/geoscan/13.png',
+                thumbnail: '/images/projects/geoscan/13.png'
             },
             {
-                src: '/images/projects/geoscan/14.png'
+                original: '/images/projects/geoscan/14.png',
+                thumbnail: '/images/projects/geoscan/14.png'
             },
             {
-                src: '/images/projects/geoscan/15.png'
+                original: '/images/projects/geoscan/15.png',
+                thumbnail: '/images/projects/geoscan/15.png'
             },
             {
-                src: '/images/projects/geoscan/16.png'
+                original: '/images/projects/geoscan/16.png',
+                thumbnail: '/images/projects/geoscan/16.png'
             },
             {
-                src: '/images/projects/geoscan/17.png'
+                original: '/images/projects/geoscan/17.png',
+                thumbnail: '/images/projects/geoscan/17.png'
             },
             {
-                src: '/images/projects/geoscan/18.png'
+                original: '/images/projects/geoscan/18.png',
+                thumbnail: '/images/projects/geoscan/18.png'
             },
             {
-                src: '/images/projects/geoscan/19.png'
+                original: '/images/projects/geoscan/19.png',
+                thumbnail: '/images/projects/geoscan/19.png'
             },
             {
-                src: '/images/projects/geoscan/20.png'
+                original: '/images/projects/geoscan/20.png',
+                thumbnail: '/images/projects/geoscan/20.png'
             },
             {
-                src: '/images/projects/geoscan/21.png'
+                original: '/images/projects/geoscan/21.png',
+                thumbnail: '/images/projects/geoscan/21.png'
             },
             {
-                src: '/images/projects/geoscan/22.png'
+                original: '/images/projects/geoscan/22.png',
+                thumbnail: '/images/projects/geoscan/22.png'
             }
         ]
     },
@@ -600,52 +738,68 @@ export const projects = [
         technologies: ['HTML/5', 'CSS/3 (LESS/SCSS)', 'Java', 'Eclipse'],
         galleries: [
             {
-                src: '/images/projects/policeGeoscan/1.png'
+                original: '/images/projects/policeGeoscan/1.png',
+                thumbnail: '/images/projects/policeGeoscan/1.png'
             },
             {
-                src: '/images/projects/policeGeoscan/2.png'
+                original: '/images/projects/policeGeoscan/2.png',
+                thumbnail: '/images/projects/policeGeoscan/2.png'
             },
             {
-                src: '/images/projects/policeGeoscan/3.png'
+                original: '/images/projects/policeGeoscan/3.png',
+                thumbnail: '/images/projects/policeGeoscan/3.png'
             },
             {
-                src: '/images/projects/policeGeoscan/4.png'
+                original: '/images/projects/policeGeoscan/4.png',
+                thumbnail: '/images/projects/policeGeoscan/4.png'
             },
             {
-                src: '/images/projects/policeGeoscan/5.png'
+                original: '/images/projects/policeGeoscan/5.png',
+                thumbnail: '/images/projects/policeGeoscan/5.png'
             },
             {
-                src: '/images/projects/policeGeoscan/6.png'
+                original: '/images/projects/policeGeoscan/6.png',
+                thumbnail: '/images/projects/policeGeoscan/6.png'
             },
             {
-                src: '/images/projects/policeGeoscan/7.png'
+                original: '/images/projects/policeGeoscan/7.png',
+                thumbnail: '/images/projects/policeGeoscan/7.png'
             },
             {
-                src: '/images/projects/policeGeoscan/8.png'
+                original: '/images/projects/policeGeoscan/8.png',
+                thumbnail: '/images/projects/policeGeoscan/8.png'
             },
             {
-                src: '/images/projects/policeGeoscan/9.png'
+                original: '/images/projects/policeGeoscan/9.png',
+                thumbnail: '/images/projects/policeGeoscan/9.png'
             },
             {
-                src: '/images/projects/policeGeoscan/10.png'
+                original: '/images/projects/policeGeoscan/10.png',
+                thumbnail: '/images/projects/policeGeoscan/10.png'
             },
             {
-                src: '/images/projects/policeGeoscan/11.png'
+                original: '/images/projects/policeGeoscan/11.png',
+                thumbnail: '/images/projects/policeGeoscan/11.png'
             },
             {
-                src: '/images/projects/policeGeoscan/12.png'
+                original: '/images/projects/policeGeoscan/12.png',
+                thumbnail: '/images/projects/policeGeoscan/12.png'
             },
             {
-                src: '/images/projects/policeGeoscan/13.png'
+                original: '/images/projects/policeGeoscan/13.png',
+                thumbnail: '/images/projects/policeGeoscan/13.png'
             },
             {
-                src: '/images/projects/policeGeoscan/14.png'
+                original: '/images/projects/policeGeoscan/14.png',
+                thumbnail: '/images/projects/policeGeoscan/14.png'
             },
             {
-                src: '/images/projects/policeGeoscan/15.png'
+                original: '/images/projects/policeGeoscan/15.png',
+                thumbnail: '/images/projects/policeGeoscan/15.png'
             },
             {
-                src: '/images/projects/policeGeoscan/16.png'
+                original: '/images/projects/policeGeoscan/16.png',
+                thumbnail: '/images/projects/policeGeoscan/16.png'
             }
         ]
     }

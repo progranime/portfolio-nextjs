@@ -23,7 +23,7 @@ function Projects({ projects }: any) {
                         {projects.map((project: any) => (
                             <Col sm={30} className='mb-2' key={project.id}>
                                 <Card
-                                    image={project.galleries[0]}
+                                    image={project.galleries[0].original}
                                     title={project.title}
                                     description={project.description}
                                     link={{

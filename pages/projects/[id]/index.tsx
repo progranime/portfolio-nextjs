@@ -5,14 +5,40 @@ import Image from 'next/image'
 import Badge from 'react-bootstrap/Badge'
 import axios from 'axios'
 import Head from 'next/head'
+import { useState } from 'react'
+import ImageGallery from 'react-image-gallery'
 
 import listStyles from 'styles/components/_list.module.scss'
 import imageStyles from 'styles/components/_image.module.scss'
+import galleryStyles from 'styles/components/_gallery.module.scss'
 import Separator from 'components/ui/Separator'
 import MyImage from 'components/ui/MyImage'
 import Card from 'components/ui/Card'
+import MyModal from 'components/ui/MyModal'
+
+const initialState = {
+    toggleGallery: false,
+    galleryStartIndex: 0
+}
 
 function ProjectDetails({ project }: any) {
+    const [values, setValues] = useState(initialState)
+
+    function handleToggleGallery() {
+        setValues((prevState) => ({
+            ...prevState,
+            toggleGallery: !prevState.toggleGallery
+        }))
+    }
+
+    function handleShowGallery(index: number) {
+        setValues((prevState) => ({
+            ...prevState,
+            toggleGallery: true,
+            galleryStartIndex: index
+        }))
+    }
+
     return (
         <>
             <Head>
@@ -26,7 +52,7 @@ function ProjectDetails({ project }: any) {
                         <Col lg={30}>
                             <MyImage>
                                 <Image
-                                    src={project.galleries[0].src}
+                                    src={project.galleries[0].original}
                                     layout='fill'
                                     objectFit='cover'
                                     placeholder='blur'
@@ -70,13 +96,14 @@ function ProjectDetails({ project }: any) {
                                 <Card>
                                     <MyImage>
                                         <Image
-                                            src={gallery.src}
+                                            src={gallery.original}
                                             layout='fill'
                                             objectFit='cover'
                                             placeholder='blur'
                                             blurDataURL='/images/assets/item-loader.gif'
                                             className={imageStyles.image__item}
                                             alt={project.title}
+                                            onClick={() => handleShowGallery(index)}
                                         />
                                     </MyImage>
                                 </Card>
@@ -85,6 +112,12 @@ function ProjectDetails({ project }: any) {
                     </Row>
                 </section>
             </Container>
+
+            <MyModal show={values.toggleGallery} onHide={handleToggleGallery} size='xl' centered>
+                <div className={galleryStyles.gallery}>
+                    <ImageGallery items={project.galleries} thumbnailPosition='right' showPlayButton={false} startIndex={values.galleryStartIndex} />
+                </div>
+            </MyModal>
         </>
     )
 }

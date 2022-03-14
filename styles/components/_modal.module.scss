@@ -1,0 +1,95 @@
+@import '../global/imports';
+
+.modal {
+    $self: &;
+    font-size: 12px;
+    padding: 0 !important; // to override inline style of BS Modal
+
+    &-dialog {
+        font-size: 14px;
+    }
+
+    &-content {
+        font-size: 16px;
+    }
+
+    &-header {
+        background-color: $gray-100;
+        padding: 0 $space-2;
+        min-height: 32px;
+        border: none;
+
+        .close {
+            font-size: 12px;
+        }
+    }
+
+    &-title {
+        font-size: 14px;
+    }
+
+    &-body {
+        font-size: 22px;
+        padding: $space-2;
+    }
+
+    &-footer {
+        font-size: 24px;
+        padding: $space-2;
+
+        &:empty {
+            display: none;
+        }
+    }
+
+    // modifier
+
+    &--transparent {
+        #{$self}-header {
+            background-color: transparent;
+        }
+    }
+
+    &--body-0 {
+        #{$self}-body {
+            padding: 0;
+        }
+    }
+
+    &--overflow {
+        #{$self}-body {
+            max-height: calc(100vh - 200px);
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+    }
+
+    &--header-0 {
+        #{$self}-header {
+            background-color: transparent;
+            min-height: 0;
+        }
+
+        #{$self}-title {
+            display: none;
+        }
+
+        #{$self}-body {
+            padding: 0;
+        }
+
+        .close {
+            font-size: 20px;
+            padding: $space-2;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            z-index: 10;
+
+            @include media-breakpoint-up(sm) {
+                top: 20px;
+                right: 40px;
+            }
+        }
+    }
+}
