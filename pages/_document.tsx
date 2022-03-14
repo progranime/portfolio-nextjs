@@ -17,6 +17,11 @@ class MyDocument extends Document {
                         with huge knowledge and proficiency in HTML, CSS, JavaScript, JQuery, Reactjs, Nextjs, Nodejs, PHP and mobile responsive web
                         development, as well as strong skills and ability in writing clean and efficient code."
                     />
+                    <meta property='og:title' content='Jeremy Espinosa Portfolio' />
+                    <meta property='og:url' content='https://jeremyespinosa.vercel.app' />
+
+                    <link rel='apple-touch-icon' href='favicon.ico' />
+
                     <link rel='preload' as='font' href='/fonts/myriad-pro.woff2' type='font/woff2' crossOrigin='anonymous' />
                     <link rel='preload' as='font' href='/fonts/myriad-pro.woff' type='font/woff2' crossOrigin='anonymous' />
                     <link rel='preload' as='font' href='/fonts/myriad-pro-light.woff2' type='font/woff2' crossOrigin='anonymous' />
