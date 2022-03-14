@@ -5,7 +5,6 @@ import listStyles from 'styles/components/_list.module.scss'
 import { TimelineProps } from 'shared/types/timeline.types'
 
 function Timeline({ items, className }: TimelineProps) {
-    console.log(items)
     return (
         <div
             className={classNames({

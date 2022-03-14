@@ -50,6 +50,7 @@
         }
 
         li {
+            padding: $space-1 0;
             &.is-active {
                 background-color: $primary;
                 border-radius: 5px;

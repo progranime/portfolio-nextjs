@@ -3,53 +3,52 @@
 .card {
     $self: &;
     position: relative;
-
-    &:after {
-        content: '';
-        width: 30px;
-        height: 100%;
-        background-color: #e5e5e5;
-        position: absolute;
-        right: -10px;
-        top: 0;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        z-index: 0;
-    }
+    height: 100%;
 
     &__container {
-        display: flex;
-        background-color: #efeff6;
-        border-radius: 20px;
-        padding: $space-3 $space-2;
+        background-color: $white;
+        box-shadow: -5px 5px 5px 0px $gray-400;
+        border-radius: 10px;
+        padding: $space-2;
         position: relative;
         z-index: 10;
         flex-direction: column;
+        height: 100%;
 
         @include media-breakpoint-up(sm) {
             flex-direction: row;
-            padding: $space-3;
         }
     }
 
     &__image {
         margin-bottom: $space-2;
-
-        @include media-breakpoint-up(sm) {
-            margin-bottom: 0;
-        }
+        max-height: 250px;
+        overflow: hidden;
+        margin-bottom: $space-2;
+        position: relative;
 
         img {
             border-radius: 10px;
             margin: 0;
         }
+
+        .link {
+            position: absolute;
+            bottom: 5px;
+            right: 10px;
+            background-color: $dark;
+            padding: 10px;
+            border-radius: 100%;
+            color: $white;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                box-shadow: 0px 0px 5px 3px lighten($dark, 20%);
+            }
+        }
     }
 
     &__details {
-        @include media-breakpoint-up(sm) {
-            margin-left: $space-4;
-        }
-
         .title {
             font-size: 18px;
             font-weight: bold;
@@ -64,10 +63,16 @@
         .description {
             font-size: 12px;
         }
+    }
 
-        button {
-            a {
-                font-size: 12px;
+    &--grid {
+        #{$self}__container {
+            display: flex;
+        }
+
+        #{$self}__details {
+            @include media-breakpoint-up(sm) {
+                margin-left: $space-2;
             }
         }
     }

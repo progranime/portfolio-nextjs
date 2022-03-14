@@ -2,22 +2,22 @@
 
 .sidebar {
     $self: &;
-    border-radius: 15%;
+    border-radius: 10px;
 
     &__container {
     }
 
     &__intro {
         background-color: $white;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
         text-align: center;
         padding: $space-3 0;
 
         .dp {
             position: relative;
             width: 120px;
-            border-radius: 15%;
+            border-radius: 10px;
         }
 
         .title {

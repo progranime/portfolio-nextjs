@@ -5,6 +5,7 @@ import SSRProvider from 'react-bootstrap/SSRProvider'
 import router from 'next/router'
 
 import 'styles/app.scss'
+import 'shared/config/axios'
 import MainLayout from 'components/layout/MainLayout'
 import Loader from 'components/ui/Loader'
 

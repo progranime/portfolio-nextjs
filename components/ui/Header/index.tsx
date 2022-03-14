@@ -57,7 +57,7 @@ function Header() {
                         </li>
                         <li
                             className={classNames({
-                                [`${styles['is-active']}`]: pathname === '/projects'
+                                [`${styles['is-active']}`]: pathname.match(/projects/g)
                             })}
                             onClick={handleCloseMenu}
                         >

@@ -15,6 +15,7 @@ body {
     background-image: url('#{$pathImg}/bg2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
@@ -29,8 +30,8 @@ body {
     &--primary {
         background-color: $white;
         padding: 0;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 }
 

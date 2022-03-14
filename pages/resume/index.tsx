@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col'
 import { BiBookOpen } from 'react-icons/bi'
 import { MdWork } from 'react-icons/md'
 
+import listStyles from 'styles/components/_list.module.scss'
 import Timeline from 'components/ui/Timeline'
 
 const educations = [
@@ -77,9 +78,56 @@ function Resume() {
             </section>
 
             <section className='bg-light-gray p-4'>
+                <Row>
+                    <Col lg={30}>
+                        <Separator>
+                            <h3>Coding Skills</h3>
+                        </Separator>
+
+                        <ul className={`${listStyles.list} ${listStyles['list--styled']}`}>
+                            <li>HTML/HTML5</li>
+                            <li>CSS/CSS3 (LESS,SCSS), Mobile First Design, BEM naming convention</li>
+                            <li>Bootstrap 3/4/5</li>
+                            <li>Javascript (Modular Pattern Design), jQuery, AJAX</li>
+                            <li>ReactJS, Redux</li>
+                            <li>Handlebar Template</li>
+                            <li>Nodejs</li>
+                            <li>PHP, MySQL</li>
+                            <li>MVC Framework CodeIgniter</li>
+                        </ul>
+                    </Col>
+                    <Col lg={30}>
+                        <Separator>
+                            <h3>Tools</h3>
+                        </Separator>
+
+                        <ul className={`${listStyles.list} ${listStyles['list--styled']}`}>
+                            <li>Tortoise SVN, Git</li>
+                            <li>JS Task Runner (Gulp, Grunt)</li>
+                            <li>NPM, NVM</li>
+                            <li>JIRA, Wrike</li>
+                            <li>FileZilla</li>
+                            <li>Visual Studio Code, Sublime Text</li>
+                            <li>HeidiSQL, SQLYog</li>
+                        </ul>
+                    </Col>
+                </Row>
+            </section>
+
+            <section className='p-4'>
                 <Separator>
-                    <h3>Skills</h3>
+                    <h3>Certifications and Awards</h3>
                 </Separator>
+
+                <ul className={`${listStyles.list} ${listStyles['list--styled']}`}>
+                    <li>Certificate of Recognition for being on the Dean’s List for First Semester, School Year 2013-2014</li>
+                    <li>Certificate of Recognition for being on the Dean’s List for First Semester, School Year 2015-2016</li>
+                    <li>Certificate of Recognition for being on the VPAA’s List for Second Semester, School Year 2015- 2016</li>
+                    <li>
+                        Certificate of Recognition for winning 3rd place in the Science and Technology Fair 2016 during TIP’s 54th Foundation
+                        Anniversary
+                    </li>
+                </ul>
             </section>
         </Container>
     )

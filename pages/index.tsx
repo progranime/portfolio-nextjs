@@ -7,10 +7,12 @@ import Button from 'react-bootstrap/Button'
 import { BiCodeBlock } from 'react-icons/bi'
 
 import buttonStyles from 'styles/components/_button.module.scss'
+import cardStyles from 'styles/components/_card.module.scss'
 import Card from 'components/ui/Card'
 import Separator from 'components/ui/Separator'
+import axios from 'axios'
 
-const Home: NextPage = () => {
+const Home: NextPage = ({ projects, codes }: any) => {
     return (
         <Container className='container--primary'>
             <section className='p-4'>
@@ -40,6 +42,7 @@ const Home: NextPage = () => {
                             icon={<BiCodeBlock size={30} />}
                             title='Web Development'
                             description='High-quality and professional development of sites at the professional level.'
+                            className={cardStyles['card--grid']}
                         />
                     </Col>
                 </Row>
@@ -51,30 +54,19 @@ const Home: NextPage = () => {
                 </Separator>
 
                 <Row className='gx-4'>
-                    <Col lg={30} className='mb-2'>
-                        <Card
-                            image='/images/projects/fmt/1.png'
-                            title='Free Music Tribe'
-                            subtitle='Front End Developer'
-                            description="This website offers every user to have freedom to buy and sell music equipment. This is where you can find Pre-Loved of New Gear and it's All for Free. We are continuing to build more features that will be helpful to our user."
-                            link={{
-                                href: '/',
-                                title: 'Learn More'
-                            }}
-                        />
-                    </Col>
-                    <Col lg={30} className='mb-2'>
-                        <Card
-                            image='/images/projects/fmt/1.png'
-                            title='Free Music Tribe'
-                            subtitle='Front End Developer'
-                            description="This website offers every user to have freedom to buy and sell music equipment. This is where you can find Pre-Loved of New Gear and it's All for Free. We are continuing to build more features that will be helpful to our user."
-                            link={{
-                                href: '/',
-                                title: 'Learn More'
-                            }}
-                        />
-                    </Col>
+                    {projects.map((project: any) => (
+                        <Col lg={30} className='mb-2' key={project.id}>
+                            <Card
+                                image={project.galleries[0].src}
+                                title={project.title}
+                                subtitle={project.position}
+                                description={project.description}
+                                link={{
+                                    href: `/projects/${project.id}`
+                                }}
+                            />
+                        </Col>
+                    ))}
                 </Row>
 
                 <div className='text-center my-2'>
@@ -90,30 +82,19 @@ const Home: NextPage = () => {
                 </Separator>
 
                 <Row className='gx-4'>
-                    <Col lg={30} className='mb-2'>
-                        <Card
-                            image='/images/projects/code/slider.jpg'
-                            title='Card and Banner Slider'
-                            description='A card and banner slider using jquery'
-                            link={{
-                                href: 'https://jsfiddle.net/progranime/xd86Lt7o/',
-                                title: 'Learn More',
-                                target: '_blank'
-                            }}
-                        />
-                    </Col>
-                    <Col lg={30} className='mb-2'>
-                        <Card
-                            image='/images/projects/code/banner.jpg'
-                            title='Banner'
-                            description='Banner with breadcrumbs and list of links'
-                            link={{
-                                href: 'https://jsfiddle.net/progranime/617ce3uv/',
-                                title: 'Learn More',
-                                target: '_blank'
-                            }}
-                        />
-                    </Col>
+                    {codes.map((code: any) => (
+                        <Col lg={30} className='mb-2' key={code.id}>
+                            <Card
+                                image={code.image}
+                                title={code.title}
+                                description={code.description}
+                                link={{
+                                    href: code.link,
+                                    target: '_blank'
+                                }}
+                            />
+                        </Col>
+                    ))}
                 </Row>
 
                 <div className='text-center my-2'>
@@ -127,3 +108,23 @@ const Home: NextPage = () => {
 }
 
 export default Home
+
+export async function getServerSideProps() {
+    const response = await axios({
+            url: '/api/projects'
+        }),
+        responseCodes = await axios({
+            url: '/api/codes'
+        }),
+        { projects } = response.data,
+        { codes } = responseCodes.data,
+        filteredProjects = projects.filter((data: any) => data.id < 3),
+        filteredCodes = codes.filter((data: any) => data.id < 3)
+
+    return {
+        props: {
+            projects: filteredProjects,
+            codes: filteredCodes
+        }
+    }
+}
