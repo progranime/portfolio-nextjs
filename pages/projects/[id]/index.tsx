@@ -59,6 +59,7 @@ function ProjectDetails({ project }: any) {
                                     blurDataURL='/images/assets/item-loader.gif'
                                     className={imageStyles.image__item}
                                     alt={project.title}
+                                    onClick={() => handleShowGallery(0)}
                                 />
                             </MyImage>
                         </Col>
@@ -117,7 +118,7 @@ function ProjectDetails({ project }: any) {
                 <div className={galleryStyles.gallery}>
                     <ImageGallery
                         items={project.galleries}
-                        thumbnailPosition='right'
+                        thumbnailPosition='bottom'
                         showPlayButton={false}
                         startIndex={values.galleryStartIndex}
                         lazyLoad={true}
