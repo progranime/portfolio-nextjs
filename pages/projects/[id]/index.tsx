@@ -32,6 +32,7 @@ function ProjectDetails({ project }: any) {
                                     placeholder='blur'
                                     blurDataURL='/images/assets/item-loader.gif'
                                     className={imageStyles.image__item}
+                                    alt={project.title}
                                 />
                             </MyImage>
                         </Col>
@@ -75,6 +76,7 @@ function ProjectDetails({ project }: any) {
                                             placeholder='blur'
                                             blurDataURL='/images/assets/item-loader.gif'
                                             className={imageStyles.image__item}
+                                            alt={project.title}
                                         />
                                     </MyImage>
                                 </Card>

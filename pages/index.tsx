@@ -25,14 +25,14 @@ const Home: NextPage = ({ projects, codes }: any) => {
                         <h3>About Me</h3>
                     </Separator>
                     <p>
-                        I'm <b>Jeremy Espinosa</b>. I'm a simple, creative, enthusiastic and fun-loving person. I always like to create something on
-                        my own which is helpful for others.
+                        I&apos;m <b>Jeremy Espinosa</b>. I&apos;m a simple, creative, enthusiastic and fun-loving person. I always like to create
+                        something on my own which is helpful for others.
                     </p>
 
                     <p>
-                        I'm experienced Web Developer seeking opportunity to bring knowledge of programming. A self-motivated IT professional with
-                        huge knowledge and proficiency in HTML, CSS, JavaScript, JQuery, Reactjs, Nodejs, PHP and mobile responsive web development,
-                        as well as strong skills and ability in writing clean and efficient code.
+                        I&apos;m experienced Web Developer seeking opportunity to bring knowledge of programming. A self-motivated IT professional
+                        with huge knowledge and proficiency in HTML, CSS, JavaScript, JQuery, Reactjs, Nodejs, PHP and mobile responsive web
+                        development, as well as strong skills and ability in writing clean and efficient code.
                     </p>
                 </section>
 

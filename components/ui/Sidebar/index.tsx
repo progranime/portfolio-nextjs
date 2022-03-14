@@ -3,10 +3,13 @@ import Button from 'react-bootstrap/Button'
 import { BsLinkedin, BsEnvelope, BsFillGeoAltFill, BsDownload, BsFillCalendarMonthFill } from 'react-icons/bs'
 import Badge from 'react-bootstrap/Badge'
 import { GrLanguage } from 'react-icons/gr'
+import Image from 'next/image'
 
 import styles from 'styles/components/_sidebar.module.scss'
 import buttonStyles from 'styles/components/_button.module.scss'
+import imageStyles from 'styles/components/_image.module.scss'
 import listStyles from 'styles/components/_list.module.scss'
+import MyImage from 'components/ui/MyImage'
 
 function Sidebar() {
     return (
@@ -15,7 +18,17 @@ function Sidebar() {
                 <div className={styles.sidebar__intro}>
                     <Link href='/'>
                         <a>
-                            <img src='/images/home-dp.jpg' alt='' className={styles.dp} />
+                            <MyImage style={{ width: '150px', borderRadius: '10px' }}>
+                                <Image
+                                    src='/images/home-dp.jpg'
+                                    alt='My Profile Image'
+                                    layout='fill'
+                                    objectFit='cover'
+                                    placeholder='blur'
+                                    blurDataURL='/images/assets/item-loader.gif'
+                                    className={imageStyles.image__item}
+                                />
+                            </MyImage>
                         </a>
                     </Link>
                     <p className={styles.title}>
