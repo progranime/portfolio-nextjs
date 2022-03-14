@@ -11,7 +11,7 @@ function Projects({ projects }: any) {
     return (
         <>
             <Head>
-                <title>Projects</title>
+                <title>Jeremy Espinosa Portfolio - Projects</title>
             </Head>
             <Container className='container--primary'>
                 <section className='p-4'>

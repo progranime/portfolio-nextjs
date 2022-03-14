@@ -17,7 +17,7 @@ const Home: NextPage = ({ projects, codes }: any) => {
     return (
         <>
             <Head>
-                <title>About Me</title>
+                <title>Jeremy Espinosa Portfolio - About Me</title>
             </Head>
             <Container className='container--primary'>
                 <section className='p-4'>
@@ -31,7 +31,7 @@ const Home: NextPage = ({ projects, codes }: any) => {
 
                     <p>
                         I&apos;m experienced Web Developer seeking opportunity to bring knowledge of programming. A self-motivated IT professional
-                        with huge knowledge and proficiency in HTML, CSS, JavaScript, JQuery, Reactjs, Nodejs, PHP and mobile responsive web
+                        with huge knowledge and proficiency in HTML, CSS, JavaScript, JQuery, Reactjs, Nextjs, Nodejs, PHP and mobile responsive web
                         development, as well as strong skills and ability in writing clean and efficient code.
                     </p>
                 </section>

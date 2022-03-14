@@ -26,15 +26,15 @@ const educations = [
 const experiences = [
     {
         id: 1,
-        title: 'Music Group',
+        title: 'Music Tribe',
         subtitle: '2017 - Present',
         description: 'Front End Developer',
         lists: [
-            'Responsible for creating, improving and developing websites using best practices in coding.',
-            'Provides support to current websites to enhance and clean up code for etter performance',
-            'Handles Data which focuses in downloads, software and documents of the website requested by stakeholders',
-            'Creates Automation Project to avoid repetitive task of the company',
-            'Follows Mobile First Design and Modular coding to have better structure of coding'
+            'Responsible for creating, improving, and developing websites using the best practices in coding.',
+            'Provides support to current websites to enhance and clean up code for better performance.',
+            'Creates automation project to avoid repetitive task of the company.',
+            'Follows mobile first design and modular coding to have better code structure.',
+            'Lead the front-end developer and set coding standards to follow.'
         ]
     },
     {
@@ -43,9 +43,9 @@ const experiences = [
         subtitle: '2016 - 2017',
         description: 'Web Developer',
         lists: [
-            'Was responsible for ensuring and maintaining that websites are properly working on a daily basis',
-            'Was responsible for creating responsive websites for better usage in mobile devices',
-            'Was also responsible for utilizing Chinese CMS software in creating websites'
+            'Responsible for ensuring and maintaining the websites.',
+            'Responsible for creating responsive websites for better usage in mobile devices.',
+            'Responsible for utilizing Chinese CMS software in creating websites'
         ]
     }
 ]
@@ -54,7 +54,7 @@ function Resume() {
     return (
         <>
             <Head>
-                <title>Resume</title>
+                <title>Jeremy Espinosa Portfolio - Resume</title>
             </Head>
             <Container className='container--primary'>
                 <section className='p-4'>
@@ -91,14 +91,13 @@ function Resume() {
 
                             <ul className={`${listStyles.list} ${listStyles['list--styled']}`}>
                                 <li>HTML/HTML5</li>
-                                <li>CSS/CSS3 (LESS,SCSS), Mobile First Design, BEM naming convention</li>
+                                <li>CSS (LESS/SCSS), BEM, CSS Module, Mobile First Design</li>
                                 <li>Bootstrap 3/4/5</li>
-                                <li>Javascript (Modular Pattern Design), jQuery, AJAX</li>
-                                <li>ReactJS, Redux</li>
-                                <li>Handlebar Template</li>
-                                <li>Nodejs</li>
+                                <li>JavaScript (Object Notation Design Pattern)</li>
+                                <li>jQuery, AJAX, Handlebar Template</li>
+                                <li>Reactjs, Nextjs, Redux, React Bootstrap, Nodejs</li>
                                 <li>PHP, MySQL</li>
-                                <li>MVC Framework CodeIgniter</li>
+                                <li>CodeIgniter MVC Framework</li>
                             </ul>
                         </Col>
                         <Col lg={30}>
@@ -107,7 +106,7 @@ function Resume() {
                             </Separator>
 
                             <ul className={`${listStyles.list} ${listStyles['list--styled']}`}>
-                                <li>Tortoise SVN, Git</li>
+                                <li>Tortoise SVN, Git, Source Tree</li>
                                 <li>JS Task Runner (Gulp, Grunt)</li>
                                 <li>NPM, NVM</li>
                                 <li>JIRA, Wrike</li>
@@ -125,11 +124,11 @@ function Resume() {
                     </Separator>
 
                     <ul className={`${listStyles.list} ${listStyles['list--styled']}`}>
-                        <li>Certificate of Recognition for being on the Dean’s List for First Semester, School Year 2013-2014</li>
-                        <li>Certificate of Recognition for being on the Dean’s List for First Semester, School Year 2015-2016</li>
-                        <li>Certificate of Recognition for being on the VPAA’s List for Second Semester, School Year 2015- 2016</li>
+                        <li>Certificate of Recognition for being on the Dean&apos;s List for First Semester, School Year 2013-2014</li>
+                        <li>Certificate of Recognition for being on the Dean&apos;s List for First Semester, School Year 2015-2016</li>
+                        <li>Certificate of Recognition for being on the VPAA&apos;s List for Second Semester, School Year 2015- 2016</li>
                         <li>
-                            Certificate of Recognition for winning 3rd place in the Science and Technology Fair 2016 during TIP’s 54th Foundation
+                            Certificate of Recognition for winning 3rd place in the Science and Technology Fair 2016 during TIP&apos;s 54th Foundation
                             Anniversary
                         </li>
                     </ul>

@@ -42,7 +42,7 @@ function ProjectDetails({ project }: any) {
     return (
         <>
             <Head>
-                <title>Project - {project.title}</title>
+                <title>Jeremy Espinosa Portfolio Project - {project.title}</title>
                 <meta name='description' content={project.description} />
             </Head>
 
