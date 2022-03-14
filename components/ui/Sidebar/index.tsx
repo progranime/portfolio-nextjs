@@ -18,7 +18,7 @@ function Sidebar() {
                 <div className={styles.sidebar__intro}>
                     <Link href='/'>
                         <a>
-                            <MyImage style={{ width: '150px', borderRadius: '10px' }}>
+                            <MyImage style={{ width: '120px' }} className={imageStyles['image--border']}>
                                 <Image
                                     src='/images/home-dp.jpg'
                                     alt='My Profile Image'
@@ -41,7 +41,7 @@ function Sidebar() {
                         <li>
                             <Link href='https://www.linkedin.com/in/jeremy-espinosa-213236119/'>
                                 <a target='_blank'>
-                                    <BsLinkedin />
+                                    <BsLinkedin size='20' />
                                 </a>
                             </Link>
                         </li>
