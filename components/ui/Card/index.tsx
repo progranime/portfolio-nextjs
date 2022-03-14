@@ -24,24 +24,30 @@ function Card({ image, title, subtitle, description, link, className, icon, chil
                         <div className={styles.card__image}>
                             {image ? (
                                 <>
-                                    <MyImage>
-                                        <Image
-                                            src={image}
-                                            layout='fill'
-                                            objectFit='cover'
-                                            placeholder='blur'
-                                            blurDataURL='/images/assets/item-loader.gif'
-                                            className={imageStyles.image__item}
-                                            alt={title}
-                                        />
-                                    </MyImage>
-
                                     {link && (
-                                        <Link href={link.href}>
-                                            <a className={styles.link} target={link.target}>
-                                                <ImLink size={20} />
-                                            </a>
-                                        </Link>
+                                        <>
+                                            <Link href={link.href}>
+                                                <a target={link.target}>
+                                                    <MyImage>
+                                                        <Image
+                                                            src={image}
+                                                            layout='fill'
+                                                            objectFit='cover'
+                                                            placeholder='blur'
+                                                            blurDataURL='/images/assets/item-loader.gif'
+                                                            className={imageStyles.image__item}
+                                                            alt={title}
+                                                        />
+                                                    </MyImage>
+                                                </a>
+                                            </Link>
+
+                                            <Link href={link.href}>
+                                                <a className={styles.link} target={link.target}>
+                                                    <ImLink size={20} />
+                                                </a>
+                                            </Link>
+                                        </>
                                     )}
                                 </>
                             ) : (
