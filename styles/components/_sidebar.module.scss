@@ -45,18 +45,11 @@
         padding: $space-3;
 
         ul {
-            display: none;
+            display: flex;
             margin-bottom: $space-3;
-
-            @include media-breakpoint-up(sm) {
-                display: flex;
-                gap: 15px;
-                justify-content: center;
-            }
-
-            @include media-breakpoint-up(lg) {
-                flex-direction: column;
-            }
+            gap: 15px;
+            justify-content: center;
+            flex-direction: column;
 
             li {
                 font-size: 12px;

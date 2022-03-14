@@ -65,7 +65,7 @@ function Sidebar() {
                         </li>
                     </ul>
 
-                    <div className='text-center'>
+                    {/* <div className='text-center'>
                         <Button className={`${buttonStyles.btn} ${buttonStyles['btn-primary']}`}>
                             <Link href='/docs/resume.pdf'>
                                 <a download>
@@ -74,7 +74,7 @@ function Sidebar() {
                                 </a>
                             </Link>
                         </Button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
