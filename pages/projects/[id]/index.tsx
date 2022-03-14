@@ -115,7 +115,13 @@ function ProjectDetails({ project }: any) {
 
             <MyModal show={values.toggleGallery} onHide={handleToggleGallery} size='xl' centered>
                 <div className={galleryStyles.gallery}>
-                    <ImageGallery items={project.galleries} thumbnailPosition='right' showPlayButton={false} startIndex={values.galleryStartIndex} />
+                    <ImageGallery
+                        items={project.galleries}
+                        thumbnailPosition='right'
+                        showPlayButton={false}
+                        startIndex={values.galleryStartIndex}
+                        lazyLoad={true}
+                    />
                 </div>
             </MyModal>
         </>

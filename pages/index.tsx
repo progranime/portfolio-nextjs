@@ -62,7 +62,7 @@ const Home: NextPage = ({ projects, codes }: any) => {
                         {projects.map((project: any) => (
                             <Col lg={30} className='mb-2' key={project.id}>
                                 <Card
-                                    image={project.galleries[0].src}
+                                    image={project.galleries[0].original}
                                     title={project.title}
                                     subtitle={project.position}
                                     description={project.description}
