@@ -31,9 +31,7 @@ function Sidebar() {
                             </MyImage>
                         </a>
                     </Link>
-                    <p className={styles.title}>
-                        Jeremy <b>Espinosa</b>
-                    </p>
+                    <p className={`${styles.title}`}>Jeremy Espinosa</p>
                     <Badge bg='dark' className={styles.badge}>
                         React/Next JS Developer
                     </Badge>
