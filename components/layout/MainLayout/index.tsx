@@ -1,12 +1,14 @@
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
+import dynamic from 'next/dynamic'
 
 import styles from 'styles/components/_main-layout.module.scss'
-import Sidebar from 'components/ui/Sidebar'
-import Footer from 'components/ui/Footer'
-import Header from 'components/ui/Header'
 import { MainLayoutProps } from 'shared/types/main-layout.types'
+
+const Sidebar = dynamic(() => import('components/ui/Sidebar'))
+const Header = dynamic(() => import('components/ui/Header'))
+const Footer = dynamic(() => import('components/ui/Footer'))
 
 function MainLayout({ children }: MainLayoutProps) {
     return (

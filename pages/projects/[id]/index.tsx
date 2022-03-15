@@ -6,7 +6,7 @@ import Badge from 'react-bootstrap/Badge'
 import axios from 'axios'
 import Head from 'next/head'
 import { useState } from 'react'
-import ImageGallery from 'react-image-gallery'
+import dynamic from 'next/dynamic'
 
 import listStyles from 'styles/components/_list.module.scss'
 import imageStyles from 'styles/components/_image.module.scss'
@@ -14,7 +14,9 @@ import galleryStyles from 'styles/components/_gallery.module.scss'
 import Separator from 'components/ui/Separator'
 import MyImage from 'components/ui/MyImage'
 import Card from 'components/ui/Card'
-import MyModal from 'components/ui/MyModal'
+
+const MyModal = dynamic(() => import('components/ui/MyModal'))
+const ImageGallery = dynamic(() => import('react-image-gallery'))
 
 const initialState = {
     toggleGallery: false,
@@ -114,17 +116,19 @@ function ProjectDetails({ project }: any) {
                 </section>
             </Container>
 
-            <MyModal show={values.toggleGallery} onHide={handleToggleGallery} size='xl' centered>
-                <div className={galleryStyles.gallery}>
-                    <ImageGallery
-                        items={project.galleries}
-                        thumbnailPosition='bottom'
-                        showPlayButton={false}
-                        startIndex={values.galleryStartIndex}
-                        lazyLoad={true}
-                    />
-                </div>
-            </MyModal>
+            {values.toggleGallery && (
+                <MyModal show={values.toggleGallery} onHide={handleToggleGallery} size='xl' centered>
+                    <div className={galleryStyles.gallery}>
+                        <ImageGallery
+                            items={project.galleries}
+                            thumbnailPosition='bottom'
+                            showPlayButton={false}
+                            startIndex={values.galleryStartIndex}
+                            lazyLoad={true}
+                        />
+                    </div>
+                </MyModal>
+            )}
         </>
     )
 }
