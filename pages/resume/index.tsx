@@ -95,7 +95,7 @@ function Resume() {
 
                 <section className='bg-light-gray p-4'>
                     <Row>
-                        <Col lg={30}>
+                        <Col lg={30} className='mb-2 mb-sm-0'>
                             <Separator>
                                 <h3>Coding Skills</h3>
                             </Separator>
