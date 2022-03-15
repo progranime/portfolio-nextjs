@@ -12,6 +12,8 @@ import cardStyles from 'styles/components/_card.module.scss'
 import Card from 'components/ui/Card'
 import Separator from 'components/ui/Separator'
 import axios from 'axios'
+import { projects } from 'shared/mock-api-data/projects'
+import { codes } from 'shared/mock-api-data/codes'
 
 const Home: NextPage = ({ projects, codes }: any) => {
     return (
@@ -113,15 +115,7 @@ const Home: NextPage = ({ projects, codes }: any) => {
 export default Home
 
 export async function getStaticProps() {
-    const response = await axios({
-            url: '/api/projects'
-        }),
-        responseCodes = await axios({
-            url: '/api/codes'
-        }),
-        { projects } = response.data,
-        { codes } = responseCodes.data,
-        filteredProjects = projects.filter((data: any) => data.id < 3),
+    const filteredProjects = projects.filter((data: any) => data.id < 3),
         filteredCodes = codes.filter((data: any) => data.id < 3)
 
     return {

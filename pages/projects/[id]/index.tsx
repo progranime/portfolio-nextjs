@@ -14,6 +14,7 @@ import galleryStyles from 'styles/components/_gallery.module.scss'
 import Separator from 'components/ui/Separator'
 import MyImage from 'components/ui/MyImage'
 import Card from 'components/ui/Card'
+import { projects } from 'shared/mock-api-data/projects'
 
 const MyModal = dynamic(() => import('components/ui/MyModal'))
 const ImageGallery = dynamic(() => import('react-image-gallery'))
@@ -25,6 +26,8 @@ const initialState = {
 
 function ProjectDetails({ project }: any) {
     const [values, setValues] = useState(initialState)
+
+    if (!project) return <p>Loading ...</p>
 
     function handleToggleGallery() {
         setValues((prevState) => ({
@@ -135,11 +138,8 @@ function ProjectDetails({ project }: any) {
 
 export default ProjectDetails
 
-export async function getStaticProps({ params }: any) {
-    const response = await axios({
-            url: `/api/project?id=${params.id}`
-        }),
-        { project } = response.data
+export function getStaticProps({ params }: any) {
+    const project = projects.find((project) => project.id == params.id)
 
     return {
         props: {
@@ -148,12 +148,8 @@ export async function getStaticProps({ params }: any) {
     }
 }
 
-export async function getStaticPaths() {
-    const response = await axios({
-            url: '/api/projects'
-        }),
-        { projects } = response.data,
-        paths = projects.map((project: any) => ({ params: { id: `${project.id}` } }))
+export function getStaticPaths() {
+    const paths = projects.map((project: any) => ({ params: { id: `${project.id}` } }))
 
     return {
         paths,

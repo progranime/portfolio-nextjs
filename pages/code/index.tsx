@@ -6,6 +6,7 @@ import axios from 'axios'
 
 import Card from 'components/ui/Card'
 import Separator from 'components/ui/Separator'
+import { codes } from 'shared/mock-api-data/codes'
 
 function Code({ codes }: any) {
     return (
@@ -43,11 +44,6 @@ function Code({ codes }: any) {
 export default Code
 
 export async function getStaticProps() {
-    const response = await axios({
-            url: '/api/codes'
-        }),
-        { codes } = response.data
-
     return {
         props: {
             codes

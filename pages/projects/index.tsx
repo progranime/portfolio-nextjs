@@ -6,6 +6,7 @@ import Head from 'next/head'
 
 import Card from 'components/ui/Card'
 import Separator from 'components/ui/Separator'
+import { projects } from 'shared/mock-api-data/projects'
 
 function Projects({ projects }: any) {
     return (
@@ -42,11 +43,6 @@ function Projects({ projects }: any) {
 export default Projects
 
 export async function getStaticProps() {
-    const response = await axios({
-            url: '/api/projects'
-        }),
-        { projects } = response.data
-
     return {
         props: {
             projects
