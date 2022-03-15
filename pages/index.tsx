@@ -11,7 +11,6 @@ import buttonStyles from 'styles/components/_button.module.scss'
 import cardStyles from 'styles/components/_card.module.scss'
 import Card from 'components/ui/Card'
 import Separator from 'components/ui/Separator'
-import axios from 'axios'
 import { projects } from 'shared/mock-api-data/projects'
 import { codes } from 'shared/mock-api-data/codes'
 

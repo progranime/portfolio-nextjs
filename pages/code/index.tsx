@@ -2,7 +2,6 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Head from 'next/head'
-import axios from 'axios'
 
 import Card from 'components/ui/Card'
 import Separator from 'components/ui/Separator'

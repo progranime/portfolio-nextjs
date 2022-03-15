@@ -12,9 +12,9 @@ import Timeline from 'components/ui/Timeline'
 const educations = [
     {
         id: 1,
-        title: 'Technological Institute of the Philippines',
+        title: 'Technological Institute of the Philippines (BSCS)',
         subtitle: '2012 - 2016',
-        description: '<p class="mb-0">Bachelor of Science in Computer Science</p> \n <b>Certifications and Awards</b>',
+        description: 'Certifications and Awards',
         lists: [
             "Certificate of Recognition for being on the Dean's List for First Semester, School Year 2013-2014",
             "Certificate of Recognition for being on the Dean's List for First Semester, School Year 2015-2016",

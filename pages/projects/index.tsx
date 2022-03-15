@@ -1,7 +1,6 @@
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
-import axios from 'axios'
 import Head from 'next/head'
 
 import Card from 'components/ui/Card'
