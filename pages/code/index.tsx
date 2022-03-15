@@ -42,7 +42,7 @@ function Code({ codes }: any) {
 
 export default Code
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
     const response = await axios({
             url: '/api/codes'
         }),

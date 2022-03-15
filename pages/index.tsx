@@ -112,7 +112,7 @@ const Home: NextPage = ({ projects, codes }: any) => {
 
 export default Home
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
     const response = await axios({
             url: '/api/projects'
         }),

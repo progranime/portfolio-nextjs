@@ -41,7 +41,7 @@ function Projects({ projects }: any) {
 
 export default Projects
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
     const response = await axios({
             url: '/api/projects'
         }),

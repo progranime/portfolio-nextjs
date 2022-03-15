@@ -135,15 +135,28 @@ function ProjectDetails({ project }: any) {
 
 export default ProjectDetails
 
-export async function getServerSideProps({ params }: any) {
+export async function getStaticProps({ params }: any) {
     const response = await axios({
             url: `/api/project?id=${params.id}`
         }),
-        { data } = response
+        { project } = response.data
 
     return {
         props: {
-            project: data.project
+            project
         }
+    }
+}
+
+export async function getStaticPaths() {
+    const response = await axios({
+            url: '/api/projects'
+        }),
+        { projects } = response.data,
+        paths = projects.map((project: any) => ({ params: { id: `${project.id}` } }))
+
+    return {
+        paths,
+        fallback: true
     }
 }
