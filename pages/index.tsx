@@ -24,15 +24,12 @@ const Home: NextPage = ({ projects, codes }: any) => {
                     <Separator>
                         <h3>About Me</h3>
                     </Separator>
-                    <p>
-                        I&apos;m <b>Jeremy Espinosa</b>. I&apos;m a simple, creative, enthusiastic and fun-loving person. I always like to create
-                        something on my own which is helpful for others.
-                    </p>
 
                     <p>
-                        I&apos;m experienced Web Developer seeking opportunity to bring knowledge of programming. A self-motivated IT professional
-                        with huge knowledge and proficiency in HTML, CSS, JavaScript, JQuery, Reactjs, Nextjs, Nodejs, PHP and mobile responsive web
-                        development, as well as strong skills and ability in writing clean and efficient code.
+                        I&apos;m a Web Developer with over 6+ years of experience looking for an opportunity to apply my programming skills. A
+                        self-motivated IT expert with extensive experience and understanding in HTML, CSS, JavaScript, jQuery, Reactjs, Nextjs,
+                        Nodejs, PHP, and mobile responsive web development, as well as excellent skills and abilities in developing clean and
+                        efficient code.
                     </p>
                 </section>
 

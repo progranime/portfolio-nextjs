@@ -17,7 +17,7 @@ function Timeline({ items, className }: TimelineProps) {
                     <article className={styles.timeline__item} key={item.id}>
                         <h5 className={styles.title}>{item.title}</h5>
                         <span className={styles.period}>{item.subtitle}</span>
-                        <p className={styles.description}>{item.description}</p>
+                        <p className={styles.description} dangerouslySetInnerHTML={{ __html: item.description }} />
 
                         {item.lists && (
                             <ul className={`${listStyles.list} ${listStyles['list--styled']}`}>

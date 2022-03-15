@@ -14,12 +14,23 @@ const educations = [
         id: 1,
         title: 'Technological Institute of the Philippines',
         subtitle: '2012 - 2016',
-        description: 'Bachelor of Science in Computer Science'
+        description: '<p class="mb-0">Bachelor of Science in Computer Science</p> \n <b>Certifications and Awards</b>',
+        lists: [
+            "Certificate of Recognition for being on the Dean's List for First Semester, School Year 2013-2014",
+            "Certificate of Recognition for being on the Dean's List for First Semester, School Year 2015-2016",
+            "Certificate of Recognition for being on the VPAA's List for Second Semester, School Year 2015- 2016",
+            "Certificate of Recognition for winning 3rd place in the Science and Technology Fair 2016 during TIP's 54th Foundation Anniversary"
+        ]
     },
     {
         id: 2,
         title: 'La Immaculada Concepcion School',
-        subtitle: '2006 - 2012'
+        subtitle: '2008 - 2012'
+    },
+    {
+        id: 3,
+        title: 'Arellano University',
+        subtitle: '2002 - 2008'
     }
 ]
 
@@ -116,22 +127,6 @@ function Resume() {
                             </ul>
                         </Col>
                     </Row>
-                </section>
-
-                <section className='p-4'>
-                    <Separator>
-                        <h3>Certifications and Awards</h3>
-                    </Separator>
-
-                    <ul className={`${listStyles.list} ${listStyles['list--styled']}`}>
-                        <li>Certificate of Recognition for being on the Dean&apos;s List for First Semester, School Year 2013-2014</li>
-                        <li>Certificate of Recognition for being on the Dean&apos;s List for First Semester, School Year 2015-2016</li>
-                        <li>Certificate of Recognition for being on the VPAA&apos;s List for Second Semester, School Year 2015- 2016</li>
-                        <li>
-                            Certificate of Recognition for winning 3rd place in the Science and Technology Fair 2016 during TIP&apos;s 54th Foundation
-                            Anniversary
-                        </li>
-                    </ul>
                 </section>
             </Container>
         </>
