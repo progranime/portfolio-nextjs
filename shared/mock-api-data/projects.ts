@@ -1,6 +1,80 @@
 export const projects = [
     {
-        id: 1,
+        id: 'music-tribe-solutions',
+        title: 'Music Tribe Solutions',
+        position: 'Front End Developer',
+        description:
+            'The Solutions website provides a comprehensive view of the different brands that fall under each solution be it Installed Sound, Live and Tour or Lifestyle. Brands and products are showcased here to help Customers understand where they can use our equipment that will empower them.',
+        features: [
+            'Learn about each Solution and their related products.',
+            'Get information on our various Brands and their products.',
+            'See the products listed under each category.',
+            'Access the support page to get answers to product related questions or create support tickets.',
+            'Learn more about Music Tribe.',
+            'Access the Music Tribe Store (for super partners only), apply to become a partner or visit the Community.',
+            'Find information within the Solutions website using keywords.',
+            'Google Translate'
+        ],
+        technologies: [
+            'HTML/5',
+            'CSS/3 (SCSS)',
+            'CSS Module',
+            'React Bootstrap',
+            'Bootstrap 5',
+            'Next JS',
+            'React JS',
+            'Formik',
+            'Axios',
+            'React Redux',
+            'Swiper',
+            'Typescript',
+            'Gulp'
+        ],
+        galleries: [
+            {
+                original: '/images/projects/musictribe-solutions/1.png',
+                thumbnail: '/images/projects/musictribe-solutions/1.png'
+            },
+            {
+                original: '/images/projects/musictribe-solutions/2.png',
+                thumbnail: '/images/projects/musictribe-solutions/2.png'
+            },
+            {
+                original: '/images/projects/musictribe-solutions/3.png',
+                thumbnail: '/images/projects/musictribe-solutions/3.png'
+            },
+            {
+                original: '/images/projects/musictribe-solutions/4.png',
+                thumbnail: '/images/projects/musictribe-solutions/4.png'
+            },
+            {
+                original: '/images/projects/musictribe-solutions/5.png',
+                thumbnail: '/images/projects/musictribe-solutions/5.png'
+            },
+            {
+                original: '/images/projects/musictribe-solutions/6.png',
+                thumbnail: '/images/projects/musictribe-solutions/6.png'
+            },
+            {
+                original: '/images/projects/musictribe-solutions/7.png',
+                thumbnail: '/images/projects/musictribe-solutions/7.png'
+            },
+            {
+                original: '/images/projects/musictribe-solutions/8.png',
+                thumbnail: '/images/projects/musictribe-solutions/8.png'
+            },
+            {
+                original: '/images/projects/musictribe-solutions/9.png',
+                thumbnail: '/images/projects/musictribe-solutions/9.png'
+            },
+            {
+                original: '/images/projects/musictribe-solutions/10.png',
+                thumbnail: '/images/projects/musictribe-solutions/10.png'
+            }
+        ]
+    },
+    {
+        id: 'free-music-tribe',
         title: 'Free Music Tribe',
         position: 'Front End Developer',
         description:
@@ -14,7 +88,17 @@ export const projects = [
             'Expanded Currency Options',
             'OTP Integration for verification of Contact number'
         ],
-        technologies: ['HTML/5', 'CSS/3 (LESS/SCSS)', 'Javascript (ES6)', 'JQuery', 'Handlebarjs', 'Gulp', 'ASP.Net', 'NopCommerce', 'MSSQL'],
+        technologies: [
+            'HTML/5',
+            'CSS/3 (LESS/SCSS)',
+            'Javascript (ES6)',
+            'JQuery',
+            'Handlebarjs',
+            'Gulp',
+            'ASP.Net',
+            'NopCommerce',
+            'MSSQL'
+        ],
         galleries: [
             {
                 original: '/images/projects/fmt/1.png',
@@ -139,10 +223,11 @@ export const projects = [
         ]
     },
     {
-        id: 2,
+        id: 'avatar-maker',
         title: 'Avatar Maker',
         position: 'Front & Back End Developer',
-        description: 'Creates an avatar for business presentation and icons for the current company websites.',
+        description:
+            'Creates an avatar for business presentation and icons for the current company websites.',
         features: [
             'Automating the creation of the avatar',
             'Creating Avatar based on gender, position you want.',
@@ -150,7 +235,17 @@ export const projects = [
             "Storing of avatar you've created",
             'Searching Functionality for the other user to see your created avatar.'
         ],
-        technologies: ['HTML/5', 'CSS/3 (LESS/SCSS)', 'Javascript (ES6)', 'JQuery', 'Handlebarjs', 'Gulp', 'PHP', 'CodeIgniter', 'MYSQL'],
+        technologies: [
+            'HTML/5',
+            'CSS/3 (LESS/SCSS)',
+            'Javascript (ES6)',
+            'JQuery',
+            'Handlebarjs',
+            'Gulp',
+            'PHP',
+            'CodeIgniter',
+            'MYSQL'
+        ],
         galleries: [
             {
                 original: '/images/projects/avatarmaker/1.jpg',
@@ -223,10 +318,11 @@ export const projects = [
         ]
     },
     {
-        id: 3,
+        id: 'sarangani-box-tracking-system',
         title: 'Sarangani Box Tracking System',
         position: 'Front & Back End Developer',
-        description: 'Sarangani Box is a real time Tracking System giving the user every useful information related to its products.',
+        description:
+            'Sarangani Box is a real time Tracking System giving the user every useful information related to its products.',
         features: [
             'Track package by Invoice or Tracking number',
             'User Authentication',
@@ -235,7 +331,15 @@ export const projects = [
             'Read/Delete Message Inquiries',
             'Reports by location and status of the packages'
         ],
-        technologies: ['HTML/5', 'CSS/3 (LESS/SCSS)', 'Javascript (ES6)', 'JQuery', 'PHP', 'CodeIgniter', 'MYSQL'],
+        technologies: [
+            'HTML/5',
+            'CSS/3 (LESS/SCSS)',
+            'Javascript (ES6)',
+            'JQuery',
+            'PHP',
+            'CodeIgniter',
+            'MYSQL'
+        ],
         galleries: [
             {
                 original: '/images/projects/saranganiBox/1.png',
@@ -300,7 +404,7 @@ export const projects = [
         ]
     },
     {
-        id: 4,
+        id: 'sales-forecast',
         title: 'Sales Forecast',
         position: 'Front & Back End Developer',
         description:
@@ -313,7 +417,14 @@ export const projects = [
             'Can track the history who changed the data',
             'Dynamic filtering means filter list depends on the current data'
         ],
-        technologies: ['HTML/5', 'CSS/3 (LESS/SCSS)', 'React JS', 'PHP', 'CodeIgniter', 'MYSQL'],
+        technologies: [
+            'HTML/5',
+            'CSS/3 (LESS/SCSS)',
+            'React JS',
+            'PHP',
+            'CodeIgniter',
+            'MYSQL'
+        ],
         galleries: [
             {
                 original: '/images/projects/sales-forecast/1.jpg',
@@ -342,10 +453,11 @@ export const projects = [
         ]
     },
     {
-        id: 5,
+        id: 'pledge',
         title: 'Job Description / Pledge',
         position: 'Front & Back End Developer',
-        description: 'Creates the job description of the employees instead of creating it manually.',
+        description:
+            'Creates the job description of the employees instead of creating it manually.',
         features: [
             'Automating job description of the company’s employee',
             'CRUD (Create, Read, Update, Delete) functionality.',
@@ -354,7 +466,17 @@ export const projects = [
             'Exporting of data to CSV file.',
             'Tracking user action to the application'
         ],
-        technologies: ['HTML/5', 'CSS/3 (LESS/SCSS)', 'Javascript (ES6)', 'JQuery', 'Handlebarjs', 'Gulp', 'PHP', 'CodeIgniter', 'MYSQL'],
+        technologies: [
+            'HTML/5',
+            'CSS/3 (LESS/SCSS)',
+            'Javascript (ES6)',
+            'JQuery',
+            'Handlebarjs',
+            'Gulp',
+            'PHP',
+            'CodeIgniter',
+            'MYSQL'
+        ],
         galleries: [
             {
                 original: '/images/projects/pledges/1.jpg',
@@ -391,12 +513,26 @@ export const projects = [
         ]
     },
     {
-        id: 6,
+        id: 'superants-inc',
         title: 'Superants.inc Website',
         position: 'Front & Back End Developer',
-        description: 'Superants.inc is an informational website to provide what the company can offer to its customer.',
-        features: ['Informational website', 'Used Google Maps API', 'Created contact form to know users concerns.'],
-        technologies: ['HTML/5', 'CSS/3 (LESS/SCSS)', 'Javascript (ES6)', 'JQuery', 'Gulp', 'PHP', 'CodeIgniter', 'MYSQL'],
+        description:
+            'Superants.inc is an informational website to provide what the company can offer to its customer.',
+        features: [
+            'Informational website',
+            'Used Google Maps API',
+            'Created contact form to know users concerns.'
+        ],
+        technologies: [
+            'HTML/5',
+            'CSS/3 (LESS/SCSS)',
+            'Javascript (ES6)',
+            'JQuery',
+            'Gulp',
+            'PHP',
+            'CodeIgniter',
+            'MYSQL'
+        ],
         galleries: [
             {
                 original: '/images/projects/superants/homepage.jpg',
@@ -417,10 +553,11 @@ export const projects = [
         ]
     },
     {
-        id: 7,
+        id: 'mid-generator',
         title: 'MID Generator',
         position: 'Front & Back End Developer',
-        description: 'The objective of this project is to automate the creation of the MID and output it in a PDF.',
+        description:
+            'The objective of this project is to automate the creation of the MID and output it in a PDF.',
         features: [
             'Automates the creation of the MID',
             'List and filters all of the MID created of the user',
@@ -429,7 +566,17 @@ export const projects = [
             'Can see the previous documents for references for creating new MID or check what are the previous information on it.',
             'CRUD functionality to the MID document'
         ],
-        technologies: ['HTML/5', 'CSS/3 (LESS/SCSS)', 'Javascript (ES6)', 'JQuery', 'Handlebarjs', 'Gulp', 'PHP', 'CodeIgniter', 'MYSQL'],
+        technologies: [
+            'HTML/5',
+            'CSS/3 (LESS/SCSS)',
+            'Javascript (ES6)',
+            'JQuery',
+            'Handlebarjs',
+            'Gulp',
+            'PHP',
+            'CodeIgniter',
+            'MYSQL'
+        ],
         galleries: [
             {
                 original: '/images/projects/midGenerator/1.jpg',
@@ -502,7 +649,7 @@ export const projects = [
         ]
     },
     {
-        id: 8,
+        id: 'digital-assets-management',
         title: 'Digital Assets Management',
         position: 'Front & Back End Developer',
         description:
@@ -514,7 +661,16 @@ export const projects = [
             'Favorites assets to have collection',
             'Can group download assets and compress it in a zip file'
         ],
-        technologies: ['HTML/5', 'CSS/3 (LESS/SCSS)', 'Javascript (ES6)', 'ReactJS', 'Redux', 'Expressjs', 'Nodejs', 'MYSQL'],
+        technologies: [
+            'HTML/5',
+            'CSS/3 (LESS/SCSS)',
+            'Javascript (ES6)',
+            'ReactJS',
+            'Redux',
+            'Expressjs',
+            'Nodejs',
+            'MYSQL'
+        ],
         galleries: [
             {
                 original: '/images/projects/dam/1.png',
@@ -539,7 +695,7 @@ export const projects = [
         ]
     },
     {
-        id: 9,
+        id: 'business-card-generator',
         title: 'Business Card Generator',
         position: 'Front & Back End Developer',
         description:
@@ -551,7 +707,16 @@ export const projects = [
             'Admin dashboard for updating the status of those Business Card created',
             'Manage users who can access with admin rights'
         ],
-        technologies: ['HTML/5', 'CSS/3 (LESS/SASS)', 'Javascript (ES6)', 'ReactJS', 'Redux', 'Expressjs', 'Nodejs', 'MYSQL'],
+        technologies: [
+            'HTML/5',
+            'CSS/3 (LESS/SASS)',
+            'Javascript (ES6)',
+            'ReactJS',
+            'Redux',
+            'Expressjs',
+            'Nodejs',
+            'MYSQL'
+        ],
         galleries: [
             {
                 original: '/images/projects/businessCardGenerator/1.png',
@@ -624,10 +789,11 @@ export const projects = [
         ]
     },
     {
-        id: 10,
+        id: 'geoscan',
         title: 'GeoSCAN',
         position: 'Mobile Developer',
-        description: 'A mobile application that can alert the user that there is a crime happend to a certain location.',
+        description:
+            'A mobile application that can alert the user that there is a crime happend to a certain location.',
         features: [
             'Programmer and concept developer of this application',
             'Acquired data from the Police station of the target location of this app',
@@ -726,10 +892,11 @@ export const projects = [
         ]
     },
     {
-        id: 11,
+        id: 'police-geoscan',
         title: 'Police GeoSCAN',
         position: 'Mobile Developer',
-        description: 'Mobile App for the police officer to report the crime where it take place',
+        description:
+            'Mobile App for the police officer to report the crime where it take place',
         features: [
             'Programmer and concept developer of this application',
             'Acquired data from the Police station of the target location of this app',

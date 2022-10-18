@@ -27,10 +27,14 @@ const Home: NextPage = ({ projects, codes }: any) => {
                     </Separator>
 
                     <p>
-                        I&apos;m a Web Developer with over 6+ years of experience looking for an opportunity to apply my programming skills. A
-                        self-motivated IT expert with extensive experience and understanding in HTML, CSS, JavaScript, jQuery, Reactjs, Nextjs,
-                        Nodejs, PHP, and mobile responsive web development, as well as excellent skills and abilities in developing clean and
-                        efficient code.
+                        I&apos;m a Web Developer with over 6+ years of
+                        experience looking for an opportunity to apply my
+                        programming skills. A self-motivated IT expert with
+                        extensive experience and understanding in HTML, CSS,
+                        JavaScript, jQuery, Reactjs, Nextjs, Nodejs, PHP, and
+                        mobile responsive web development, as well as excellent
+                        skills and abilities in developing clean and efficient
+                        code.
                     </p>
                 </section>
 
@@ -73,7 +77,10 @@ const Home: NextPage = ({ projects, codes }: any) => {
                     </Row>
 
                     <div className='text-center my-2'>
-                        <Button variant='primary' className={`${buttonStyles.btn} ${buttonStyles['btn-primary']}`}>
+                        <Button
+                            variant='primary'
+                            className={`${buttonStyles.btn} ${buttonStyles['btn-primary']}`}
+                        >
                             <Link href='/projects'>See More</Link>
                         </Button>
                     </div>
@@ -101,7 +108,10 @@ const Home: NextPage = ({ projects, codes }: any) => {
                     </Row>
 
                     <div className='text-center my-2'>
-                        <Button variant='primary' className={`${buttonStyles.btn} ${buttonStyles['btn-primary']}`}>
+                        <Button
+                            variant='primary'
+                            className={`${buttonStyles.btn} ${buttonStyles['btn-primary']}`}
+                        >
                             <Link href='/code'>See More</Link>
                         </Button>
                     </div>
@@ -114,7 +124,9 @@ const Home: NextPage = ({ projects, codes }: any) => {
 export default Home
 
 export async function getStaticProps() {
-    const filteredProjects = projects.filter((data: any) => data.id < 3),
+    const filteredProjects = projects.filter(
+            (data: any, index: number) => index < 2
+        ),
         filteredCodes = codes.filter((data: any) => data.id < 3)
 
     return {
